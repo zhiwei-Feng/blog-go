@@ -2,3 +2,5 @@
 .vscode
 go.sum
 .iris.yml
+.idea
+blog-go

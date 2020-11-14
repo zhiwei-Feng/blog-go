@@ -42,12 +42,12 @@ export default {
         password: this.loginForm.password
       }).then(resp => {
         _this.loading = false;
-        _this.$alert(resp)
+        // console.log("resp ", resp)
         if (resp.status === 200) {
           //成功
           var json = resp.data;
-          console.log('resp.data ', json)
-          if (json.status === 'success') {
+          // console.log('resp.data ', json)
+          if (json.status === 200) {
             _this.$router.replace({path: '/home'});
           } else {
             _this.$alert('登录失败!', '失败!');

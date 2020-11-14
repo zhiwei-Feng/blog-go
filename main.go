@@ -4,6 +4,7 @@ import (
 	"blog-go/src/controller"
 	"blog-go/src/domain"
 	"fmt"
+	"github.com/rs/cors"
 	"log"
 
 	"github.com/kataras/iris/v12"
@@ -32,13 +33,23 @@ func main() {
 
 func newApp() *iris.Application {
 	app := iris.Default()
+
+	c := cors.New(cors.Options{
+		AllowedOrigins:   []string{"*"},
+		AllowCredentials: true,
+		// Enable Debugging for testing, consider disabling in production
+		Debug: true,
+	})
+	app.WrapRouter(c.ServeHTTP)
+
 	app.Get("/currentUserName", controller.CurrentUserName)
 	app.Get("/currentUserId", controller.CurrentUserId)
 	app.Post("/login", controller.Login)
+	//app.Get("/", index)
 	//app.HandleDir("/", iris.Dir("./static"))
 	return app
 }
 
 func index(ctx iris.Context) {
-	ctx.HTML("<h1>Index Page</h1>")
+	ctx.HTML("<h1>Welcome</h1>")
 }
