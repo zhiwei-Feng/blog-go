@@ -2,30 +2,16 @@ package main
 
 import (
 	"blog-go/src/controller"
-	"blog-go/src/domain"
-	"fmt"
-	"github.com/rs/cors"
-	"log"
-
 	"github.com/kataras/iris/v12"
-	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
+	"github.com/rs/cors"
 )
 
 func main() {
 
-	dsn := "root:88888888@tcp(127.0.0.1:3306)/vueblog2?charset=utf8&parseTime=True&loc=Local"
-	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
-
-	if err != nil {
-		panic("db conn fail.")
-	} else {
-		log.Println("db conn success.")
-	}
-	user := domain.User{}
-	db.Preload("Roles").First(&user, 6)
+	//user := domain.User{}
+	//db.Preload("Roles").First(&user, 6)
 	//db.Debug().Preload("Roles").First(&user, 6)
-	fmt.Println(user.Roles)
+	//fmt.Println(user.Roles)
 	app := newApp()
 
 	app.Listen(":8081")
@@ -44,6 +30,7 @@ func newApp() *iris.Application {
 
 	app.Get("/currentUserName", controller.CurrentUserName)
 	app.Get("/currentUserId", controller.CurrentUserId)
+	app.Get("/logout", controller.Logout)
 	app.Post("/login", controller.Login)
 	//app.Get("/", index)
 	//app.HandleDir("/", iris.Dir("./static"))

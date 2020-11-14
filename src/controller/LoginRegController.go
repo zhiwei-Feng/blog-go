@@ -1,7 +1,12 @@
 package controller
 
 import (
+	"blog-go/src/config"
+	"blog-go/src/domain"
+	"crypto/md5"
+	"encoding/hex"
 	"github.com/kataras/iris/v12"
+	"net/http"
 )
 
 func Login(ctx iris.Context) {
@@ -9,9 +14,33 @@ func Login(ctx iris.Context) {
 	password := ctx.PostValue("password")
 
 	ctx.Application().Logger().Infof("username:[%v], password:[%v]", username, password)
-	resp := RespBean{
-		Status: 200,
-		Msg:    "Login Success.",
+	db := config.DB
+	user := domain.User{}
+	db.Where("username = ?", username).First(&user)
+
+	hashedPwd := GetMD5Hash(password)
+	var resp RespBean
+	if hashedPwd == user.Password {
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    "Login Success.",
+		}
+
+	} else {
+		ctx.Application().Logger().Warn("Login Failure")
+		resp = RespBean{
+			Status: http.StatusUnauthorized,
+			Msg:    "Login Failure.",
+		}
 	}
 	ctx.JSON(resp)
+}
+
+func Logout(ctx iris.Context) {
+	ctx.Application().Logger().Info("logout")
+}
+
+func GetMD5Hash(text string) string {
+	hash := md5.Sum([]byte(text))
+	return hex.EncodeToString(hash[:])
 }

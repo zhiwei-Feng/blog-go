@@ -46,7 +46,7 @@ export default {
         if (resp.status === 200) {
           //成功
           var json = resp.data;
-          // console.log('resp.data ', json)
+          console.log('resp.data ', json)
           if (json.status === 200) {
             _this.$router.replace({path: '/home'});
           } else {
