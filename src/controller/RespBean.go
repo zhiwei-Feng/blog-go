@@ -2,6 +2,7 @@ package controller
 
 type RespBean struct {
 	// http返回封装
-	Status int    `json:"status"`
-	Msg    string `json:"msg"`
+	Status int         `json:"status"`
+	Msg    string      `json:"msg"`
+	Data   interface{} `json:"data"`
 }

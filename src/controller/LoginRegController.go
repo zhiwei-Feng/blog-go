@@ -21,11 +21,19 @@ func Login(ctx iris.Context) {
 	hashedPwd := GetMD5Hash(password)
 	var resp RespBean
 	if hashedPwd == user.Password {
-		resp = RespBean{
-			Status: http.StatusOK,
-			Msg:    "Login Success.",
+		token, err := config.Authenticate(username)
+		if err != nil {
+			resp = RespBean{
+				Status: http.StatusUnauthorized,
+				Msg:    "Token generate Failure.",
+			}
+		} else {
+			resp = RespBean{
+				Status: http.StatusOK,
+				Msg:    "Login Success.",
+				Data:   token,
+			}
 		}
-
 	} else {
 		ctx.Application().Logger().Warn("Login Failure")
 		resp = RespBean{

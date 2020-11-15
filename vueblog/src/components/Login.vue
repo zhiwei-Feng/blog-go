@@ -48,6 +48,7 @@ export default {
           var json = resp.data;
           console.log('resp.data ', json)
           if (json.status === 200) {
+            localStorage.setItem("token", json.data)
             _this.$router.replace({path: '/home'});
           } else {
             _this.$alert('登录失败!', '失败!');
