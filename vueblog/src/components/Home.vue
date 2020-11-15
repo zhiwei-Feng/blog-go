@@ -68,9 +68,9 @@ export default {
           cancelButtonText: '取消',
           type: 'warning'
         }).then(function () {
-          getRequest("/logout")
-          _this.currentUserName = '游客';
+          // getRequest("/logout")
           localStorage.removeItem("token");
+          _this.currentUserName = '游客';
           _this.$router.replace({path: '/'});
         }, function () {
           //取消
