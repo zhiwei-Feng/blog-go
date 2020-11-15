@@ -16,13 +16,7 @@ func newApp() *iris.Application {
 	app := iris.Default()
 
 	//+--------------------------------+ CORS config
-	c := cors.New(cors.Options{
-		AllowedOrigins:   []string{"*"},
-		AllowCredentials: true,
-		AllowedHeaders:   []string{"*"},
-		// Enable Debugging for testing, consider disabling in production
-		Debug: true,
-	})
+	c := cors.AllowAll()
 	app.WrapRouter(c.ServeHTTP)
 	//+--------------------------------+
 	app.Post("/login", controller.Login)
@@ -31,6 +25,9 @@ func newApp() *iris.Application {
 	authApi.Use(config.J.Verify)
 	authApi.Get("/currentUserName", controller.CurrentUserName)
 	authApi.Get("/currentUserId", controller.CurrentUserId)
+	authApi.Get("/currentUserEmail", controller.CurrentUserEmail)
+	authApi.Get("/isAdmin", controller.IsAdmin)
+	authApi.Put("/updateUserEmail", controller.UpdateUserEmail)
 	authApi.Get("/logout", controller.Logout)
 
 	return app

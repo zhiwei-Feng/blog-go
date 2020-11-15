@@ -21,7 +21,7 @@ func Login(ctx iris.Context) {
 	hashedPwd := GetMD5Hash(password)
 	var resp RespBean
 	if hashedPwd == user.Password {
-		token, err := config.Authenticate(username)
+		token, err := config.Authenticate(username, user.ID)
 		if err != nil {
 			resp = RespBean{
 				Status: http.StatusUnauthorized,
