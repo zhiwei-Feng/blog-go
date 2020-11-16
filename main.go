@@ -14,6 +14,7 @@ func main() {
 
 func newApp() *iris.Application {
 	app := iris.Default()
+	app.Logger().SetLevel("DEBUG")
 
 	//+--------------------------------+ CORS config
 	c := cors.AllowAll()
@@ -29,6 +30,13 @@ func newApp() *iris.Application {
 	authApi.Get("/isAdmin", controller.IsAdmin)
 	authApi.Put("/updateUserEmail", controller.UpdateUserEmail)
 	authApi.Get("/logout", controller.Logout)
+
+	admin := authApi.Party("/admin")
+	{
+		admin.Get("/user", controller.GetUserByNickname)
+		admin.Get("/roles", controller.GetAllRoles)
+		admin.Put("/user/role", controller.UpdateUserRoles)
+	}
 
 	return app
 }

@@ -13,7 +13,6 @@ func Login(ctx iris.Context) {
 	username := ctx.PostValue("username")
 	password := ctx.PostValue("password")
 
-	ctx.Application().Logger().Infof("username:[%v], password:[%v]", username, password)
 	db := config.DB
 	user := domain.User{}
 	db.Where("username = ?", username).First(&user)

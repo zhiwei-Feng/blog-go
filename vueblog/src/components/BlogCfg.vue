@@ -45,8 +45,8 @@
             _this.loading = true;
             putRequest("/updateUserEmail", {email: _this.emailValidateForm.email}).then(resp=> {
               _this.loading = false;
-              if (resp.status == 200) {
-                _this.$message({type: resp.data.status, message: resp.data.msg});
+              if (resp.status === 200) {
+                _this.$message({type: 'success', message: resp.data.msg});
               } else {
                 _this.$message({type: 'error', message: '开启失败!'});
               }

@@ -70,3 +70,14 @@ func UpdateUserEmail(ctx iris.Context) {
 	}
 	ctx.JSON(resp)
 }
+
+func GetUserByNickname(ctx iris.Context) {
+	nickname := ctx.URLParam("nickname")
+	var users []domain.User
+	if nickname == "" {
+		config.DB.Preload("Roles").Find(&users)
+	} else {
+		config.DB.Preload("Roles").Where("nickname = ?", nickname).Find(&users)
+	}
+	ctx.JSON(users)
+}

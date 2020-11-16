@@ -1,6 +1,6 @@
 package domain
 
 type Role struct {
-	ID   uint `gorm:"primarykey"`
-	Name string
+	ID   uint   `json:"id" gorm:"primarykey"`
+	Name string `json:"name"`
 }
