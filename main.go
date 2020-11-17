@@ -49,5 +49,10 @@ func newApp() *iris.Application {
 		}
 	}
 
+	article := authApi.Party("/article")
+	{
+		article.Get("/dataStatistics", controller.GetDataStatistics)
+	}
+
 	return app
 }
