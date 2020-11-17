@@ -39,6 +39,14 @@ func newApp() *iris.Application {
 		admin.Put("/user/role", controller.UpdateUserRoles)
 		admin.Put("/user/enabled", controller.SwitchUserEnableStatus)
 		admin.Delete("/user/{id:int}", controller.DeleteUserById)
+
+		cate := admin.Party("/category")
+		{
+			cate.Get("/all", controller.GetAllCategories)
+			cate.Post("/", controller.AddNewCategory)
+			cate.Put("/", controller.UpdateCategory)
+			cate.Delete("/{ids:string}", controller.DeleteCateById)
+		}
 	}
 
 	return app

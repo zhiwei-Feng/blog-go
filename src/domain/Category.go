@@ -3,9 +3,9 @@ package domain
 import "time"
 
 type Category struct {
-	ID       uint `gorm:"primarykey"`
-	CateName string
-	Date     time.Time
+	ID       uint      `json:"id" gorm:"primarykey"`
+	CateName string    `json:"cateName" gorm:"column:cateName"`
+	Date     time.Time `json:"date"`
 }
 
 func (Category) TableName() string {
