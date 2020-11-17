@@ -6,6 +6,7 @@ import (
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/middleware/jwt"
 	"net/http"
+	"strings"
 )
 
 func CurrentUserName(ctx iris.Context) {
@@ -77,7 +78,81 @@ func GetUserByNickname(ctx iris.Context) {
 	if nickname == "" {
 		config.DB.Preload("Roles").Find(&users)
 	} else {
-		config.DB.Preload("Roles").Where("nickname = ?", nickname).Find(&users)
+		builder := strings.Builder{}
+		builder.WriteString("%")
+		builder.WriteString(nickname)
+		builder.WriteString("%")
+		config.DB.Preload("Roles").Where("nickname Like ?", builder.String()).Find(&users)
 	}
 	ctx.JSON(users)
+}
+
+func GetUserById(ctx iris.Context) {
+	id, err := ctx.Params().GetInt("id")
+	if err != nil {
+		ctx.StopWithError(http.StatusBadRequest, err)
+		return
+	}
+	user := domain.User{}
+	config.DB.Preload("Roles").First(&user, id)
+	ctx.JSON(user)
+}
+
+func DeleteUserById(ctx iris.Context) {
+	id, err := ctx.Params().GetInt("id")
+	if err != nil {
+		ctx.StopWithError(http.StatusBadRequest, err)
+		return
+	}
+	// 会将roles_user中对应用户的记录一并删除
+	res := config.DB.Delete(&domain.User{ID: uint(id)})
+	var resp RespBean
+	if res.Error != nil {
+		resp = RespBean{
+			Status: http.StatusInternalServerError,
+			Msg:    "删除失败",
+			Data:   nil,
+		}
+	} else {
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    "删除成功",
+			Data:   nil,
+		}
+	}
+	ctx.JSON(resp)
+}
+
+func SwitchUserEnableStatus(ctx iris.Context) {
+	enabled, err1 := ctx.PostValueBool("enabled")
+	id, err2 := ctx.PostValueInt("uid")
+	if err1 != nil || err2 != nil {
+		ctx.StopWithStatus(http.StatusBadRequest)
+		return
+	}
+
+	user := domain.User{}
+	res := config.DB.First(&user, id)
+	if res.Error != nil {
+		ctx.StopWithError(http.StatusInternalServerError, res.Error)
+		return
+	}
+	res = config.DB.Model(&user).Update("enabled", enabled)
+
+	var resp RespBean
+	if res.Error != nil {
+		resp = RespBean{
+			Status: http.StatusInternalServerError,
+			Msg:    "更新失败",
+			Data:   nil,
+		}
+	} else {
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    "更新成功",
+			Data:   nil,
+		}
+	}
+	ctx.JSON(resp)
+
 }

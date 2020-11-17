@@ -2,7 +2,7 @@
   <div v-loading="loading">
     <div style="margin-top: 10px;display: flex;justify-content: center">
       <el-input
-        placeholder="默认展示部分用户，可以通过用户名搜索用户..."
+        placeholder="默认展示所有用户，可以通过昵称搜索用户..."
         prefix-icon="el-icon-search"
         v-model="keywords" style="width: 400px" size="small">
       </el-input>
@@ -142,7 +142,7 @@ export default {
       }).then(() => {
         _this.loading = true;
         deleteRequest("/admin/user/" + id).then(resp => {
-          if (resp.status == 200 && resp.data.status == 'success') {
+          if (resp.status === 200 && resp.data.status === 200) {
             _this.$message({type: 'success', message: '删除成功!'})
             _this.loadUserList();
             return;
@@ -164,7 +164,7 @@ export default {
       var _this = this;
       _this.cardloading.splice(index, 1, true)
       putRequest("/admin/user/enabled", {enabled: enabled, uid: id}).then(resp => {
-        if (resp.status != 200) {
+        if (resp.status !== 200) {
           _this.$message({type: 'error', message: '更新失败!'})
           _this.loadOneUserById(id, index);
           return;
@@ -198,14 +198,14 @@ export default {
       var _this = this;
       getRequest("/admin/user/" + id).then(resp => {
         _this.cardloading.splice(index, 1, false)
-        if (resp.status == 200) {
+        if (resp.status === 200) {
           _this.users.splice(index, 1, resp.data);
         } else {
           _this.$message({type: 'error', message: '数据加载失败!'});
         }
       }, resp => {
         _this.cardloading.splice(index, 1, false)
-        if (resp.response.status == 403) {
+        if (resp.response.status === 403) {
           var data = resp.response.data;
           _this.$message({type: 'error', message: data});
         }

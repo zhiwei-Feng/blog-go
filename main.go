@@ -34,13 +34,12 @@ func newApp() *iris.Application {
 	admin := authApi.Party("/admin")
 	{
 		admin.Get("/user", controller.GetUserByNickname)
+		admin.Get("/user/{id:int}", controller.GetUserById)
 		admin.Get("/roles", controller.GetAllRoles)
 		admin.Put("/user/role", controller.UpdateUserRoles)
+		admin.Put("/user/enabled", controller.SwitchUserEnableStatus)
+		admin.Delete("/user/{id:int}", controller.DeleteUserById)
 	}
 
 	return app
-}
-
-func index(ctx iris.Context) {
-	ctx.HTML("<h1>Welcome</h1>")
 }
