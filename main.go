@@ -59,6 +59,7 @@ func newApp() *iris.Application {
 		article.Get("/dataStatistics", controller.GetDataStatistics)
 		article.Get("/all", controller.GetArticleByState)
 		article.Get("/{aid:int}", controller.GetArticleById)
+		article.Post("/", controller.AddNewArticle)
 	}
 
 	return app

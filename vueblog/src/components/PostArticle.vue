@@ -176,7 +176,7 @@
         loading: false,
         from: '',
         article: {
-          id: '-1',
+          id: '',
           dynamicTags: [],
           title: '',
           mdContent: '',

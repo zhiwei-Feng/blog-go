@@ -44,13 +44,13 @@ func UpdateUserRoles(ctx iris.Context) {
 
 		// 1. 删除用户的所有的角色
 		// 必须执行这一句，不然会出现用户有重复角色
-		config.DB.Exec("DELETE FROM roles_user WHERE uid = ?", userId)
+		tx.Exec("DELETE FROM roles_user WHERE uid = ?", userId)
 		// 2. 为用户增加提交的响应角色
 		var user domain.User
-		config.DB.First(&user, userId)
+		tx.First(&user, userId)
 		for _, rid := range roleIds {
 			var r domain.Role
-			res := config.DB.First(&r, rid)
+			res := tx.First(&r, rid)
 			if res.Error != nil {
 				//找不到对应的角色
 				continue
@@ -58,7 +58,7 @@ func UpdateUserRoles(ctx iris.Context) {
 			user.Roles = append(user.Roles, r)
 		}
 		// 这个会将user下的角色插入到中间表roles_user中，而不是进行更新
-		config.DB.Save(&user)
+		tx.Save(&user)
 		// end
 
 		// 返回 nil 提交事务

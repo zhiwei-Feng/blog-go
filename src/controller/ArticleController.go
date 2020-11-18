@@ -3,10 +3,12 @@ package controller
 import (
 	"blog-go/src/config"
 	"blog-go/src/domain"
+	"errors"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/middleware/jwt"
 	"gorm.io/gorm"
 	"net/http"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -38,19 +40,19 @@ func GetDataStatistics(ctx iris.Context) {
 }
 
 type ArticleObject struct {
-	Id          int           `json:"id"`
-	Title       string        `json:"title"`
-	MdContent   string        `json:"mdContent" gorm:"column:mdContent"`
-	HtmlContent string        `json:"htmlContent" gorm:"column:htmlContent"`
-	Summary     string        `json:"summary"`
-	Cid         uint          `json:"cid"`
-	Uid         uint          `json:"uid"`
-	PublishDate time.Time     `json:"publishDate" gorm:"column:publishDate"`
-	EditTime    time.Time     `json:"editTime" gorm:"column:editTime"`
-	PageView    int           `json:"pageView" gorm:"column:pageView"`
-	State       int           `json:"state"`
-	Nickname    string        `json:"nickname"`
-	CateName    string        `json:"cateName" gorm:"column:cateName"`
+	Id          int       `json:"id"`
+	Title       string    `json:"title"`
+	MdContent   string    `json:"mdContent" gorm:"column:mdContent"`
+	HtmlContent string    `json:"htmlContent" gorm:"column:htmlContent"`
+	Summary     string    `json:"summary"`
+	Cid         uint      `json:"cid"`
+	Uid         uint      `json:"uid"`
+	PublishDate time.Time `json:"publishDate" gorm:"column:publishDate"`
+	EditTime    time.Time `json:"editTime" gorm:"column:editTime"`
+	PageView    int       `json:"pageView" gorm:"column:pageView"`
+	State       int       `json:"state"`
+	Nickname    string    `json:"nickname"`
+	CateName    string    `json:"cateName" gorm:"column:cateName"`
 }
 
 func GetArticleByState(ctx iris.Context) {
@@ -155,7 +157,7 @@ func GetArticleById(ctx iris.Context) {
 
 	// 1.查找article
 	var article domain.Article
-	config.DB.Debug().Model(&domain.Article{}).
+	config.DB.Model(&domain.Article{}).
 		// todo: 数据脱敏
 		Preload("Author").Preload("Cate").Preload("Tags").
 		First(&article, aid)
@@ -164,4 +166,86 @@ func GetArticleById(ctx iris.Context) {
 		UpdateColumn("pageView", gorm.Expr("pageView + ?", 1))
 
 	ctx.JSON(article)
+}
+
+func stripHtml(content string) string {
+	content = strings.ReplaceAll(content, "<p .*?>", "")
+	content = strings.ReplaceAll(content, "<br\\s*/?>", "")
+	content = strings.ReplaceAll(content, "\\<.*?>", "")
+	return content
+}
+
+func AddNewArticle(ctx iris.Context) {
+	newArticle := domain.Article{}
+	if err := ctx.ReadBody(&newArticle); err != nil {
+		ctx.StopWithError(http.StatusBadRequest, err)
+		return
+	}
+	newArticle.DynamicTags = strings.Split(newArticle.DynamicTags[0], ",")
+	// process
+	if newArticle.Summary == "" {
+		sh := stripHtml(newArticle.HtmlContent)
+		if len(sh) > 50 {
+			newArticle.Summary = sh[:50]
+		} else {
+			newArticle.Summary = sh
+		}
+	}
+
+	var resp RespBean
+	if newArticle.ID == 0 {
+		//add operate
+		if newArticle.State == 1 {
+			newArticle.PublishDate = time.Now()
+		}
+		newArticle.EditTime = time.Now()
+		//设置当前用户
+		var claims config.UserClaims
+		_ = jwt.ReadClaims(ctx, &claims)
+		newArticle.Uid = claims.UserId
+		err := config.DB.Transaction(func(tx *gorm.DB) error {
+			// create article
+			res := tx.Create(&newArticle)
+			if res.Error != nil {
+				return res.Error
+			}
+			var tags []domain.Tags
+			var existsTags []domain.Tags
+			for _, t := range newArticle.DynamicTags {
+				var tag domain.Tags
+				if res := tx.Where("tagName = ?", t).First(&tag); res.Error != nil {
+					tags = append(tags, domain.Tags{TagName: t})
+				} else {
+					existsTags = append(existsTags, tag)
+				}
+			}
+			// create tags
+			tx.Create(&tags)
+			// assemble all tag
+			for _, t := range existsTags {
+				tags = append(tags, t)
+			}
+
+			if len(newArticle.DynamicTags) != len(tags) {
+				return errors.New("tags set fail.")
+			}
+
+			// update article
+			newArticle.Tags = tags
+			tx.Save(&newArticle)
+
+			return nil
+		})
+		if err != nil {
+			ctx.StopWithError(http.StatusInternalServerError, err)
+			return
+		}
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    strconv.Itoa(newArticle.ID),
+		}
+		ctx.JSON(resp)
+	} else {
+		// update operate
+	}
 }

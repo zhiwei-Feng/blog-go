@@ -1041,3 +1041,56 @@
 2020-11-18 16:02:56|22.3466ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.1 KB||
 2020-11-18 16:03:00|9.002807ms|200|GET|/admin/category/all|::1|0 B|624 B||
 2020-11-18 16:03:00|150.660173ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 22:40:25|13.472645ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 22:40:25|16.786343ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 22:40:28|128.714497ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.5 KB||
+2020-11-18 22:40:28|215.457792ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 22:40:28|276.01196ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|405 B||
+2020-11-18 22:40:28|383.097848ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 22:40:28|596.387612ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.1 KB||
+2020-11-18 22:40:28|600.884685ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 22:40:29|18.341195ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.2 KB||
+2020-11-18 22:41:16|6.859869ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 22:57:15|53.192µs|307|POST|/article/|::1|462 B|0 B|id=-1&title=test&mdContent=hi%20wo%20shi%20ni%20de%20po%20bi%20ren%0A%0A%60%60%60java%0ASystem.out.println(%22Hello%20World%22)%0A%60%60%60%0A&htmlContent=%3Cp%3Ehi%20wo%20shi%20ni%20de%20po%20bi%20ren%3C%2Fp%3E%0A%3Cpre%3E%3Cdiv%20class%3D%22hljs%22%3E%3Ccode%20class%3D%22lang-java%22%3ESystem.out.println(%3Cspan%20class%3D%22hljs-string%22%3E%22Hello%20World%22%3C%2Fspan%3E)%0A%3C%2Fcode%3E%3C%2Fdiv%3E%3C%2Fpre%3E%0A&cid=56&state=1&dynamicTags=tag1%2Ctag2&|
+2020-11-18 22:57:15|32.81µs|404|POST|/article|::1|462 B|9 B|id=-1&title=test&mdContent=hi%20wo%20shi%20ni%20de%20po%20bi%20ren%0A%0A%60%60%60java%0ASystem.out.println(%22Hello%20World%22)%0A%60%60%60%0A&htmlContent=%3Cp%3Ehi%20wo%20shi%20ni%20de%20po%20bi%20ren%3C%2Fp%3E%0A%3Cpre%3E%3Cdiv%20class%3D%22hljs%22%3E%3Ccode%20class%3D%22lang-java%22%3ESystem.out.println(%3Cspan%20class%3D%22hljs-string%22%3E%22Hello%20World%22%3C%2Fspan%3E)%0A%3C%2Fcode%3E%3C%2Fdiv%3E%3C%2Fpre%3E%0A&cid=56&state=1&dynamicTags=tag1%2Ctag2&|
+2020-11-18 22:57:20|18.781µs|307|POST|/article/|::1|462 B|0 B|id=-1&title=test&mdContent=hi%20wo%20shi%20ni%20de%20po%20bi%20ren%0A%0A%60%60%60java%0ASystem.out.println(%22Hello%20World%22)%0A%60%60%60%0A&htmlContent=%3Cp%3Ehi%20wo%20shi%20ni%20de%20po%20bi%20ren%3C%2Fp%3E%0A%3Cpre%3E%3Cdiv%20class%3D%22hljs%22%3E%3Ccode%20class%3D%22lang-java%22%3ESystem.out.println(%3Cspan%20class%3D%22hljs-string%22%3E%22Hello%20World%22%3C%2Fspan%3E)%0A%3C%2Fcode%3E%3C%2Fdiv%3E%3C%2Fpre%3E%0A&cid=56&state=1&dynamicTags=tag1%2Ctag2&|
+2020-11-18 22:57:20|19.789µs|404|POST|/article|::1|462 B|9 B|id=-1&title=test&mdContent=hi%20wo%20shi%20ni%20de%20po%20bi%20ren%0A%0A%60%60%60java%0ASystem.out.println(%22Hello%20World%22)%0A%60%60%60%0A&htmlContent=%3Cp%3Ehi%20wo%20shi%20ni%20de%20po%20bi%20ren%3C%2Fp%3E%0A%3Cpre%3E%3Cdiv%20class%3D%22hljs%22%3E%3Ccode%20class%3D%22lang-java%22%3ESystem.out.println(%3Cspan%20class%3D%22hljs-string%22%3E%22Hello%20World%22%3C%2Fspan%3E)%0A%3C%2Fcode%3E%3C%2Fdiv%3E%3C%2Fpre%3E%0A&cid=56&state=1&dynamicTags=tag1%2Ctag2&|
+2020-11-18 23:39:56|281.132µs|307|POST|/article/|::1|462 B|0 B|id=-1&title=test&mdContent=hi%20wo%20shi%20ni%20de%20po%20bi%20ren%0A%0A%60%60%60java%0ASystem.out.println(%22Hello%20World%22)%0A%60%60%60%0A&htmlContent=%3Cp%3Ehi%20wo%20shi%20ni%20de%20po%20bi%20ren%3C%2Fp%3E%0A%3Cpre%3E%3Cdiv%20class%3D%22hljs%22%3E%3Ccode%20class%3D%22lang-java%22%3ESystem.out.println(%3Cspan%20class%3D%22hljs-string%22%3E%22Hello%20World%22%3C%2Fspan%3E)%0A%3C%2Fcode%3E%3C%2Fdiv%3E%3C%2Fpre%3E%0A&cid=56&state=1&dynamicTags=tag1%2Ctag2&|
+2020-11-18 23:39:56|79.117343ms|500|POST|/article|::1|0 B|99 B|error(unsupported data type: &[]: Table not set, please set it like: db.Model(&user) or db.Table("users"))|
+2020-11-18 23:41:43|173.018µs|307|POST|/article/|::1|462 B|0 B|id=-1&title=test&mdContent=hi%20wo%20shi%20ni%20de%20po%20bi%20ren%0A%0A%60%60%60java%0ASystem.out.println(%22Hello%20World%22)%0A%60%60%60%0A&htmlContent=%3Cp%3Ehi%20wo%20shi%20ni%20de%20po%20bi%20ren%3C%2Fp%3E%0A%3Cpre%3E%3Cdiv%20class%3D%22hljs%22%3E%3Ccode%20class%3D%22lang-java%22%3ESystem.out.println(%3Cspan%20class%3D%22hljs-string%22%3E%22Hello%20World%22%3C%2Fspan%3E)%0A%3C%2Fcode%3E%3C%2Fdiv%3E%3C%2Fpre%3E%0A&cid=56&state=1&dynamicTags=tag1%2Ctag2&|
+2020-11-18 23:41:43|321.576µs|401|POST|/article|::1|462 B|0 B|id=-1&title=test&mdContent=hi%20wo%20shi%20ni%20de%20po%20bi%20ren%0A%0A%60%60%60java%0ASystem.out.println(%22Hello%20World%22)%0A%60%60%60%0A&htmlContent=%3Cp%3Ehi%20wo%20shi%20ni%20de%20po%20bi%20ren%3C%2Fp%3E%0A%3Cpre%3E%3Cdiv%20class%3D%22hljs%22%3E%3Ccode%20class%3D%22lang-java%22%3ESystem.out.println(%3Cspan%20class%3D%22hljs-string%22%3E%22Hello%20World%22%3C%2Fspan%3E)%0A%3C%2Fcode%3E%3C%2Fdiv%3E%3C%2Fpre%3E%0A&cid=56&state=1&dynamicTags=tag1%2Ctag2&|
+2020-11-18 23:41:53|17.504389ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 23:41:53|15.297165ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 23:41:55|10.180161ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 23:42:16|104.938µs|307|POST|/article/|::1|122 B|0 B|id=-1&title=test&mdContent=aaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-18 23:42:16|458.413594ms|200|POST|/article|::1|0 B|51 B||
+2020-11-18 23:44:18|210.075µs|307|POST|/article/|::1|122 B|0 B|id=-1&title=test&mdContent=aaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-18 23:44:18|93.370057ms|500|POST|/article|::1|0 B|58 B|error(Error 1062: Duplicate entry '-1' for key 'article.PRIMARY')|
+2020-11-18 23:49:43|314.261µs|401|GET|/admin/category/all|::1|0 B|0 B||
+2020-11-18 23:49:43|183.143µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-11-18 23:49:49|16.248229ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 23:49:49|18.017778ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 23:49:52|79.636363ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 23:49:52|90.250841ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.5 KB||
+2020-11-18 23:49:52|180.16211ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|405 B||
+2020-11-18 23:49:52|217.628626ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.1 KB||
+2020-11-18 23:49:52|221.532054ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 23:49:52|247.354196ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 23:49:52|37.092653ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.2 KB||
+2020-11-18 23:49:53|6.378897ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 23:50:08|43.926µs|307|POST|/article/|::1|136 B|0 B|id=&title=TEST&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-18 23:50:08|624.151µs|200|POST|/article|::1|0 B|0 B||
+2020-11-18 23:55:21|303.097µs|307|POST|/article/|::1|136 B|0 B|id=&title=TEST&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-18 23:55:22|432.409107ms|200|POST|/article|::1|0 B|52 B||
+2020-11-18 23:57:25|311.133µs|307|POST|/article/|::1|136 B|0 B|id=&title=TEST&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-18 23:57:25|136.636467ms|500|POST|/article|::1|0 B|14 B|error(tags set fail.)|
+2020-11-18 23:58:25|312.148µs|307|POST|/article/|::1|136 B|0 B|id=&title=TEST&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-18 23:58:25|139.229901ms|500|POST|/article|::1|0 B|14 B|error(tags set fail.)|
+2020-11-18 23:59:41|507.644µs|307|POST|/article/|::1|136 B|0 B|id=&title=TEST&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-18 23:59:42|269.853803ms|500|POST|/article|::1|0 B|14 B|error(tags set fail.)|
+2020-11-19 00:00:00|139.673µs|307|POST|/article/|::1|136 B|0 B|id=&title=TEST&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-19 00:00:00|400.83756ms|200|POST|/article|::1|0 B|52 B||
+2020-11-19 00:03:19|259.657µs|307|POST|/article/|::1|136 B|0 B|id=&title=TEST&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=t1%2Ct2&|
+2020-11-19 00:03:20|236.944139ms|200|POST|/article|::1|0 B|52 B||
+2020-11-19 00:04:31|27.379µs|307|POST|/article/|::1|145 B|0 B|id=&title=TEST123&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=test1%2Ctest2&|
+2020-11-19 00:04:32|235.368514ms|200|POST|/article|::1|0 B|52 B||
