@@ -11,14 +11,15 @@ type Article struct {
 	Cid         uint      `json:"cid"`
 	Uid         uint      `json:"uid"`
 	PublishDate time.Time `json:"publishDate" gorm:"column:publishDate"`
+	EditTime    time.Time `json:"editTime" gorm:"column:editTime"`
 	State       int       `json:"state"`
 	PageView    int       `json:"pageView" gorm:"column:pageView"`
-	EditTime    time.Time `json:"editTime" gorm:"column:editTime"`
-	DynamicTags *[]string `json:"dynamicTags"`
-	Nickname    string    `json:"nickname"`
-	CateName    string    `json:"cateName" gorm:"column:cateName"`
-	Tags        *[]Tags   `json:"tags"`
-	StateStr    string    `json:"stateStr"`
+
+	//DynamicTags []string  `json:"dynamicTags"`
+	Author User     `json:"author" gorm:"foreignKey:id;References:uid"`
+	Cate   Category `json:"category" gorm:"foreignKey:id;References:cid"`
+	Tags   []Tags   `json:"tags" gorm:"many2many:article_tags;foreignKey:id;joinForeignKey:aid;References:id;JoinReferences:tid"`
+	//StateStr string   `json:"stateStr"`
 }
 
 func (Article) TableName() string {

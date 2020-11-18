@@ -943,3 +943,101 @@
 2020-11-18 13:34:50|47.073915ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|1.4 KB||
 2020-11-18 13:34:54|31.091633ms|200|GET|/admin/article/all|::1|count=6 keywords=git page=1|0 B|483 B||
 2020-11-18 13:34:58|25.707828ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|1.4 KB||
+2020-11-18 13:40:12|87.256µs|404|GET|/article/121|::1|0 B|9 B||
+2020-11-18 14:20:06|309.449145ms|200|GET|/article/121|::1|aid=121|0 B|268 B||
+2020-11-18 14:21:54|18.815681ms|200|GET|/article/121|::1|aid=121|0 B|268 B||
+2020-11-18 14:25:30|70.721114ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:26:29|41.88459ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:26:38|24.272233ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:26:40|23.416222ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:27:46|31.31295ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:27:53|30.537039ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:30:51|71.002651ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:31:12|188.489µs|401|GET|/article/121|::1|0 B|0 B||
+2020-11-18 14:31:27|16.891608ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 14:31:28|58.462592ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 14:31:30|85.165126ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.5 KB||
+2020-11-18 14:31:30|253.952633ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 14:31:30|304.587694ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 14:31:30|333.937645ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|421 B||
+2020-11-18 14:31:30|365.837096ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.2 KB||
+2020-11-18 14:31:30|370.69825ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 14:31:30|93.339949ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.3 KB||
+2020-11-18 14:31:34|47.333807ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:31:40|43.878507ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:32:11|67.683329ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:32:15|61.196155ms|200|GET|/article/119|::1|aid=119|0 B|5.0 KB||
+2020-11-18 14:32:26|70.417579ms|200|GET|/article/117|::1|aid=117|0 B|3.8 KB||
+2020-11-18 14:32:29|42.624323ms|200|GET|/article/114|::1|aid=114|0 B|5.8 KB||
+2020-11-18 14:32:56|52.615217ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:33:00|69.583173ms|200|GET|/article/119|::1|aid=119|0 B|5.0 KB||
+2020-11-18 14:33:20|25.199889ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|1.6 KB||
+2020-11-18 14:33:21|24.500644ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.3 KB||
+2020-11-18 14:33:31|35.31019ms|200|GET|/article/all|::1|count=6 keywords=感悟 page=1 state=-1|0 B|800 B||
+2020-11-18 14:33:34|39.236887ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.5 KB||
+2020-11-18 14:33:35|53.115454ms|200|GET|/article/114|::1|aid=114|0 B|5.8 KB||
+2020-11-18 14:33:55|11.723339ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 14:34:08|53.439455ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:34:12|43.130238ms|200|GET|/article/119|::1|aid=119|0 B|5.0 KB||
+2020-11-18 14:34:18|10.75978ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 14:34:37|43.879501ms|200|GET|/article/121|::1|aid=121|0 B|3.6 KB||
+2020-11-18 14:38:00|10.551126ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 14:38:05|8.669585ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 14:40:12|88.384884ms|200|GET|/article/119|::1|aid=119|0 B|5.0 KB||
+2020-11-18 15:18:27|131.751108ms|200|GET|/article/121|::1|aid=121|0 B|3.7 KB||
+2020-11-18 15:30:43|30.820035ms|500|GET|/article/121|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:151)|
+2020-11-18 15:31:46|590.889µs|401|GET|/article/121|::1|0 B|0 B||
+2020-11-18 15:31:55|24.736448ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 15:31:55|19.050355ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 15:31:58|53.511103ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 15:32:00|31.876237ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.6 KB||
+2020-11-18 15:32:00|50.527179ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.2 KB||
+2020-11-18 15:32:00|78.66072ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 15:32:00|133.903277ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|441 B||
+2020-11-18 15:32:00|37.349581ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 15:32:00|78.164139ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 15:32:00|23.747388ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.4 KB||
+2020-11-18 15:32:02|27.42005ms|500|GET|/article/121|::1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:151)|
+2020-11-18 15:41:14|44.535585ms|200|GET|/article/121|::1|aid=121|0 B|533 B||
+2020-11-18 15:41:55|117.472484ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 15:43:42|127.009262ms|200|GET|/article/119|::1|aid=119|0 B|5.7 KB||
+2020-11-18 15:46:01|261.738µs|401|GET|/article/119|::1|0 B|0 B||
+2020-11-18 15:46:01|173.356µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-11-18 15:46:07|21.52529ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 15:46:07|19.521669ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 15:46:10|27.207068ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.6 KB||
+2020-11-18 15:46:10|88.503688ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.2 KB||
+2020-11-18 15:46:10|29.063908ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 15:46:10|154.736103ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 15:46:10|164.920049ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|441 B||
+2020-11-18 15:46:10|109.297553ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 15:46:10|26.673577ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.4 KB||
+2020-11-18 15:46:15|136.845915ms|200|GET|/article/119|::1|aid=119|0 B|5.7 KB||
+2020-11-18 15:47:15|163.853752ms|200|GET|/article/119|::1|aid=119|0 B|5.7 KB||
+2020-11-18 15:47:49|163.561644ms|200|GET|/article/119|::1|aid=119|0 B|5.7 KB||
+2020-11-18 15:51:49|23.42875ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 15:51:49|14.331076ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 15:51:52|15.105342ms|200|GET|/article/dataStatistics|::1|0 B|143 B||
+2020-11-18 15:52:12|9.177116ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 15:52:16|28.945463ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 15:52:31|64.693691ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.5 KB||
+2020-11-18 15:52:31|77.834097ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 15:52:31|123.924656ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 15:52:31|121.799289ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|405 B||
+2020-11-18 15:52:31|146.315849ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.1 KB||
+2020-11-18 15:52:31|132.930874ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 15:52:31|38.541592ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.2 KB||
+2020-11-18 15:52:45|146.069214ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 15:55:10|112.858019ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 15:57:09|175.234793ms|200|GET|/article/119|::1|aid=119|0 B|5.7 KB||
+2020-11-18 15:57:12|121.771625ms|200|GET|/article/114|::1|aid=114|0 B|6.4 KB||
+2020-11-18 15:57:31|88.378018ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 15:58:06|184.502271ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 15:59:15|79.919445ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 16:00:10|75.225448ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||
+2020-11-18 16:02:12|38.226625ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 16:02:47|23.918424ms|200|GET|/article/all|::1|count=6 keywords=人 page=1 state=2|0 B|405 B||
+2020-11-18 16:02:53|21.069219ms|200|GET|/article/all|::1|count=6 keywords=学习 page=1 state=1|0 B|776 B||
+2020-11-18 16:02:56|22.3466ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.1 KB||
+2020-11-18 16:03:00|9.002807ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 16:03:00|150.660173ms|200|GET|/article/121|::1|aid=121|0 B|4.2 KB||

@@ -5,6 +5,8 @@ import (
 	"blog-go/src/domain"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/middleware/jwt"
+	"gorm.io/gorm"
+	"net/http"
 	"strings"
 	"time"
 )
@@ -22,7 +24,9 @@ func GetDataStatistics(ctx iris.Context) {
 	)
 
 	for _, pv := range pvs {
+		// 获取最近七天的日期
 		categories = append(categories, pv.CountDate.Format("2006-01-02"))
+		// 获取最近七天的数据
 		dataStatistics = append(dataStatistics, pv.Pv)
 	}
 
@@ -33,14 +37,20 @@ func GetDataStatistics(ctx iris.Context) {
 	ctx.JSON(respMap)
 }
 
-type ResultForGetArticleByState struct {
-	Id       int       `json:"id"`
-	Title    string    `json:"title"`
-	EditTime time.Time `json:"editTime" gorm:"column:editTime"`
-	PageView int       `json:"pageView" gorm:"column:pageView"`
-	State    int       `json:"state"`
-	Nickname string    `json:"nickname"`
-	CateName string    `json:"cateName" gorm:"column:cateName"`
+type ArticleObject struct {
+	Id          int           `json:"id"`
+	Title       string        `json:"title"`
+	MdContent   string        `json:"mdContent" gorm:"column:mdContent"`
+	HtmlContent string        `json:"htmlContent" gorm:"column:htmlContent"`
+	Summary     string        `json:"summary"`
+	Cid         uint          `json:"cid"`
+	Uid         uint          `json:"uid"`
+	PublishDate time.Time     `json:"publishDate" gorm:"column:publishDate"`
+	EditTime    time.Time     `json:"editTime" gorm:"column:editTime"`
+	PageView    int           `json:"pageView" gorm:"column:pageView"`
+	State       int           `json:"state"`
+	Nickname    string        `json:"nickname"`
+	CateName    string        `json:"cateName" gorm:"column:cateName"`
 }
 
 func GetArticleByState(ctx iris.Context) {
@@ -70,7 +80,7 @@ func GetArticleByState(ctx iris.Context) {
 	}
 	sql.Count(&totalCount)
 	// 2. get article by state
-	var articles []ResultForGetArticleByState
+	var articles []ArticleObject
 	getArticle := config.DB.Table("article a")
 	getArticle = getArticle.Select("a.id, a.title, a.editTime, a.pageView, a.state, u.nickname, c.cateName")
 	getArticle = getArticle.Joins("JOIN user u ON u.id = a.uid")
@@ -117,7 +127,7 @@ func GetArticleByStateForAdmin(ctx iris.Context) {
 	}
 	sql.Count(&totalCount)
 	// 2. get article by state
-	var articles []ResultForGetArticleByState
+	var articles []ArticleObject
 	getArticle := config.DB.Table("article a")
 	getArticle = getArticle.Select("a.id, a.title, a.editTime, a.pageView, a.state, u.nickname, c.cateName")
 	getArticle = getArticle.Joins("JOIN user u ON u.id = a.uid")
@@ -134,4 +144,24 @@ func GetArticleByStateForAdmin(ctx iris.Context) {
 	respMap["articles"] = articles
 
 	ctx.JSON(respMap)
+}
+
+func GetArticleById(ctx iris.Context) {
+	aid, err := ctx.Params().GetInt("aid")
+	if err != nil {
+		ctx.StopWithError(http.StatusBadRequest, err)
+		return
+	}
+
+	// 1.查找article
+	var article domain.Article
+	config.DB.Debug().Model(&domain.Article{}).
+		// todo: 数据脱敏
+		Preload("Author").Preload("Cate").Preload("Tags").
+		First(&article, aid)
+	// 2.pv自增
+	config.DB.Table("article").Where("id = ?", aid).
+		UpdateColumn("pageView", gorm.Expr("pageView + ?", 1))
+
+	ctx.JSON(article)
 }
