@@ -610,3 +610,336 @@
 2020-11-17 22:18:47|24.15142ms|200|GET|/article/dataStatistics|::1|0 B|143 B||
 2020-11-17 22:22:22|7.626467ms|200|GET|/admin/category/all|::1|0 B|624 B||
 2020-11-17 22:22:23|35.549285ms|200|GET|/article/dataStatistics|::1|0 B|143 B||
+2020-11-18 00:19:49|18.589765ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 00:19:50|34.070285ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 00:19:52|64.763667ms|200|GET|/admin/user|::1|nickname=|0 B|5.2 KB||
+2020-11-18 00:21:50|8.808068ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 00:21:51|51.11531ms|200|GET|/admin/user|::1|nickname=|0 B|5.1 KB||
+2020-11-18 00:22:17|11.662115ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 00:22:18|150.737881ms|200|GET|/admin/user|::1|nickname=|0 B|5.3 KB||
+2020-11-18 00:24:50|13.829674ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 00:24:51|52.087064ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 00:25:02|6.700254ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 00:25:04|20.024299ms|200|GET|/article/dataStatistics|::1|0 B|143 B||
+2020-11-18 00:25:55|58.374µs|404|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|9 B||
+2020-11-18 00:25:55|60.761µs|404|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|9 B||
+2020-11-18 00:25:56|23.405µs|404|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|9 B||
+2020-11-18 00:25:56|26.425µs|404|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|9 B||
+2020-11-18 00:25:56|13.739895ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 00:25:56|96.062021ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 00:25:56|19.712µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 10:54:17|38.125795ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 10:54:18|16.282725ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 10:54:24|405.218µs|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|22 B||
+2020-11-18 10:54:24|243.399µs|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|22 B||
+2020-11-18 10:54:24|283.957µs|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|22 B||
+2020-11-18 10:54:24|446.684µs|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|22 B||
+2020-11-18 10:54:24|34.421592ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 10:54:24|111.08912ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 10:54:24|27.21µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 10:55:59|40.875681ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 10:56:10|12.150345ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-18 10:56:35|13.369256ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 10:56:35|19.559291ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 10:56:39|1.060326ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|22 B||
+2020-11-18 10:56:39|471.005µs|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|22 B||
+2020-11-18 10:56:39|851.051µs|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|22 B||
+2020-11-18 10:56:39|128.503223ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 10:56:39|140.32217ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|22 B||
+2020-11-18 10:56:39|165.946774ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 10:56:40|21.44µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 10:59:46|15.684046ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 10:59:46|19.644874ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 10:59:51|41.744935ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|22 B||
+2020-11-18 10:59:52|260.93362ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|22 B||
+2020-11-18 10:59:52|340.707527ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 10:59:52|420.308233ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|22 B||
+2020-11-18 10:59:52|428.736671ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|22 B||
+2020-11-18 10:59:52|431.216267ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 10:59:52|23.061µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:19:27|26.02067ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 11:19:42|12.378593ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:19:43|24.796358ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:19:47|330.394477ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|21 B|error(reflect: reflect.Value.Set using unaddressable value /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:43)|
+2020-11-18 11:19:47|372.081132ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:19:47|446.26937ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|21 B|error(reflect: reflect.Value.Set using unaddressable value /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:43)|
+2020-11-18 11:19:48|516.906215ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|22 B||
+2020-11-18 11:19:48|558.570761ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|22 B||
+2020-11-18 11:19:48|511.901979ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:19:48|19.352µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:22:49|14.118614ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:22:49|16.856802ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:22:51|31.694075ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 11:22:53|178.415328ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|21 B|error(reflect: reflect.Value.Set using unaddressable value /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:43)|
+2020-11-18 11:22:54|370.819109ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|22 B||
+2020-11-18 11:22:54|374.565928ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:22:54|444.454457ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|22 B||
+2020-11-18 11:22:54|536.884067ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|21 B|error(reflect: reflect.Value.Set using unaddressable value /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:43)|
+2020-11-18 11:22:54|463.667033ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:22:54|18.959µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:26:29|17.641921ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:26:29|22.440452ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:26:33|39.693556ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|22 B||
+2020-11-18 11:26:33|138.028763ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|22 B||
+2020-11-18 11:26:33|210.773742ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|22 B||
+2020-11-18 11:26:33|200.883357ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|22 B||
+2020-11-18 11:26:33|260.018101ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:26:33|333.160887ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:26:33|22.263µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:27:51|28.658824ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 11:28:00|49.83403ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 11:28:04|13.925254ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:28:04|27.874495ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:28:06|65.462623ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.3 KB||
+2020-11-18 11:28:06|281.349116ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:28:06|379.809032ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|877 B||
+2020-11-18 11:28:07|468.24964ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 11:28:07|487.632617ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|42 B||
+2020-11-18 11:28:07|548.140389ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:28:07|28.423µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:30:45|19.335634ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:30:45|18.487177ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:30:48|127.333203ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.3 KB||
+2020-11-18 11:30:48|182.089232ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:30:48|324.994237ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|913 B||
+2020-11-18 11:30:48|397.016557ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:30:48|513.209574ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 11:30:48|545.032956ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|42 B||
+2020-11-18 11:30:49|22.238µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:33:05|18.552663ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:33:05|36.608068ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:33:08|31.608014ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.3 KB||
+2020-11-18 11:33:08|41.703096ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|913 B||
+2020-11-18 11:33:09|70.211016ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:33:09|181.359091ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 11:33:09|228.83288ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|42 B||
+2020-11-18 11:33:09|195.250049ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:33:09|21.505µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:34:58|32.9µs|404|GET|/article/119|::1|0 B|9 B||
+2020-11-18 11:47:51|17.432879ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:47:51|37.16171ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:47:53|27.890361ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 11:47:55|56.599039ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 11:47:55|69.291913ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:47:55|85.49153ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.3 KB||
+2020-11-18 11:47:55|109.880495ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|42 B||
+2020-11-18 11:47:55|127.77019ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:47:55|128.895533ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|913 B||
+2020-11-18 11:47:56|41.796µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:48:42|14.904µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|0 B||
+2020-11-18 11:48:42|14.856µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|0 B||
+2020-11-18 11:48:42|16.927µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|0 B||
+2020-11-18 11:48:42|15.695µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|0 B||
+2020-11-18 11:48:42|27.537µs|401|GET|/currentUserEmail|::1|0 B|0 B||
+2020-11-18 11:48:42|5.313µs|401|GET|/isAdmin|::1|0 B|0 B||
+2020-11-18 11:48:42|13.394µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-11-18 11:49:19|37.770123ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:49:19|21.239246ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:49:23|39.873301ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.3 KB||
+2020-11-18 11:49:23|44.786931ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|913 B||
+2020-11-18 11:49:23|203.524498ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 11:49:23|153.70569ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|42 B||
+2020-11-18 11:49:23|192.968464ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:49:23|190.160385ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:49:24|34.046µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:55:21|12.927713ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:55:21|13.17375ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:55:24|39.789176ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 11:55:25|286.425917ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 11:55:25|325.728085ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 11:55:25|256.234761ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:55:25|363.594232ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 11:55:25|299.566422ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:55:25|21.792µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 11:59:25|14.415665ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 11:59:25|17.994614ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 11:59:27|33.176656ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 11:59:29|52.928592ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|40 B||
+2020-11-18 11:59:29|154.925602ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|40 B||
+2020-11-18 11:59:29|208.548471ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-11-18 11:59:29|216.068201ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 11:59:29|242.914249ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 11:59:29|266.067845ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 11:59:30|45.538µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:00:27|8.941696ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:00:27|28.079219ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:00:30|35.074458ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 12:00:30|115.78494ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 12:00:30|167.636731ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 12:00:30|183.476851ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 12:00:30|184.898078ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:00:30|170.055545ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:00:30|22.864µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:01:42|43.473915ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 12:01:47|15.668029ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:01:48|10.078449ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:01:56|47.083684ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 12:01:56|200.317362ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 12:01:56|224.963417ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 12:01:56|223.81133ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:01:56|311.662902ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 12:01:56|318.724762ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:01:57|58.976µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:05:26|17.558021ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:05:26|35.51688ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:05:29|30.966984ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 12:05:29|73.633147ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 12:05:29|116.728855ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 12:05:29|31.927495ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:05:29|75.417613ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 12:05:29|135.748161ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:05:29|28.427µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:48:29|19.477984ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:48:29|21.081026ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:48:31|156.446892ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 12:48:31|247.0229ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 12:48:31|225.85767ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|42 B||
+2020-11-18 12:48:32|187.437987ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:48:32|225.465735ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:48:32|262.841373ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 12:48:32|45.414µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:50:45|15.374615ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:50:45|22.726032ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:50:48|113.53377ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:50:49|348.432826ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:50:49|346.681471ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:50:49|281.9013ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:50:49|386.526751ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:50:49|29.654µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:50:49|617.854062ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:52:28|11.321781ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:52:28|24.483448ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:52:31|150.674056ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:52:31|279.786159ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:52:31|206.751967ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:52:31|283.310194ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:52:31|399.986542ms|500|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|21 B|error(runtime error: invalid memory address or nil pointer dereference /Users/fengzw/Documents/go_project/blog-go/src/controller/ArticleController.go:44)|
+2020-11-18 12:52:31|424.625077ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:52:31|24.598µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:53:47|11.798947ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:53:47|19.267488ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:53:52|33.681307ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 12:53:52|187.292983ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 12:53:52|127.064818ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:53:52|255.248403ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 12:53:52|302.758328ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 12:53:53|294.801655ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:53:53|66.978µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:56:29|19.709637ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 12:56:30|18.920977ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 12:56:33|119.456128ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 12:56:33|173.736024ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 12:56:33|211.267429ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 12:56:33|292.246871ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 12:56:33|308.17109ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 12:56:33|411.659527ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 12:56:33|21.951µs|404|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|9 B||
+2020-11-18 12:56:50|22.498µs|404|GET|/article/117|::1|0 B|9 B||
+2020-11-18 13:05:39|11.441861ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:05:40|17.772448ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:05:45|38.382238ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 13:05:45|47.480849ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 13:05:45|36.374861ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:05:45|21.456918ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:05:45|41.190778ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 13:05:45|75.728588ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:05:46|23.447353ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:06:10|21.764273ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|2.6 KB||
+2020-11-18 13:06:13|25.233092ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:06:16|24.453535ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|2.6 KB||
+2020-11-18 13:06:18|29.837749ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:06:19|20.903341ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|2.6 KB||
+2020-11-18 13:06:21|16.69726ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:06:23|27.732756ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|2.6 KB||
+2020-11-18 13:06:25|24.936944ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:06:28|23.787643ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|2.6 KB||
+2020-11-18 13:06:38|23.205277ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:06:43|23.431286ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|2.6 KB||
+2020-11-18 13:06:51|27.042918ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:07:00|31.221738ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|2.6 KB||
+2020-11-18 13:09:39|13.711054ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:09:40|13.975402ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:09:43|67.342704ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 13:09:43|92.539491ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 13:09:43|153.095971ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 13:09:43|166.132392ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:09:43|193.711293ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:09:43|191.784572ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:09:43|36.761898ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:09:51|39.6265ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|1.8 KB||
+2020-11-18 13:09:53|30.10502ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:09:56|39.620681ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|1.8 KB||
+2020-11-18 13:09:58|21.580393ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:10:30|25.903013ms|200|GET|/admin/article/all|::1|count=6 keywords= page=2|0 B|1.8 KB||
+2020-11-18 13:14:32|14.297177ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:14:33|11.987523ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:14:39|114.148925ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 13:14:39|109.915619ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:14:39|137.295593ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:14:39|163.59649ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 13:14:39|217.136549ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:14:39|247.525178ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 13:14:39|29.482222ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.6 KB||
+2020-11-18 13:15:24|18.17865ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:15:24|14.283076ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:15:26|52.995936ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 13:15:26|72.272176ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 13:15:26|114.48839ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:15:26|168.447526ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 13:15:26|122.603125ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:15:27|118.359381ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:15:27|16.584238ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|43 B||
+2020-11-18 13:17:49|12.562179ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:17:50|22.139924ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:17:52|90.175615ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 13:17:52|99.889174ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 13:17:52|200.40605ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 13:17:52|196.132252ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:17:52|95.399961ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:17:53|351.308584ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:17:53|25.466359ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|43 B||
+2020-11-18 13:20:48|37.436546ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 13:20:52|24.276099ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:20:52|18.194025ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:20:55|59.899901ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|1.7 KB||
+2020-11-18 13:20:55|166.682255ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.3 KB||
+2020-11-18 13:20:55|102.883224ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|474 B||
+2020-11-18 13:20:55|88.700234ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:20:55|206.71624ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:20:55|156.005217ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:20:56|34.76995ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|43 B||
+2020-11-18 13:28:46|27.661641ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:28:47|27.715304ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:28:49|157.554775ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|866 B||
+2020-11-18 13:28:50|196.59325ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:28:50|257.932925ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|666 B||
+2020-11-18 13:28:50|242.548467ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|242 B||
+2020-11-18 13:28:50|260.534801ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:28:50|257.087898ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:28:50|27.786336ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|1.3 KB||
+2020-11-18 13:29:45|14.460271ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:29:46|15.942258ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:29:48|129.786862ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|666 B||
+2020-11-18 13:29:48|227.02203ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|866 B||
+2020-11-18 13:29:48|213.229932ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:29:48|325.280458ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:29:48|349.586301ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|242 B||
+2020-11-18 13:29:48|378.799647ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:29:48|45.319109ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|1.3 KB||
+2020-11-18 13:31:05|17.097659ms|200|POST|/login|::1|0 B|249 B||
+2020-11-18 13:31:05|23.819684ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-18 13:31:07|181.455651ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|917 B||
+2020-11-18 13:31:07|215.961656ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|259 B||
+2020-11-18 13:31:08|250.737727ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-18 13:31:08|213.238033ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-18 13:31:08|323.193393ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|700 B||
+2020-11-18 13:31:08|283.185788ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-18 13:31:08|27.912176ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|1.4 KB||
+2020-11-18 13:32:06|21.271581ms|200|GET|/admin/article/all|::1|count=6 keywords=感悟 page=1|0 B|42 B||
+2020-11-18 13:32:08|19.607021ms|200|GET|/admin/article/all|::1|count=6 keywords=感悟 page=1|0 B|42 B||
+2020-11-18 13:32:26|36.946634ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-11-18 13:34:05|19.604051ms|200|GET|/admin/article/all|::1|count=6 keywords=感悟 page=1|0 B|42 B||
+2020-11-18 13:34:47|57.727346ms|200|GET|/admin/article/all|::1|count=6 keywords=感悟 page=1|0 B|483 B||
+2020-11-18 13:34:50|47.073915ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|1.4 KB||
+2020-11-18 13:34:54|31.091633ms|200|GET|/admin/article/all|::1|count=6 keywords=git page=1|0 B|483 B||
+2020-11-18 13:34:58|25.707828ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|1.4 KB||

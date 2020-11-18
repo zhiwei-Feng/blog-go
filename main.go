@@ -47,11 +47,17 @@ func newApp() *iris.Application {
 			cate.Put("/", controller.UpdateCategory)
 			cate.Delete("/{ids:string}", controller.DeleteCateById)
 		}
+
+		arti := admin.Party("/article")
+		{
+			arti.Get("/all", controller.GetArticleByStateForAdmin)
+		}
 	}
 
 	article := authApi.Party("/article")
 	{
 		article.Get("/dataStatistics", controller.GetDataStatistics)
+		article.Get("/all", controller.GetArticleByState)
 	}
 
 	return app
