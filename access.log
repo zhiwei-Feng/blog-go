@@ -1094,3 +1094,48 @@
 2020-11-19 00:03:20|236.944139ms|200|POST|/article|::1|0 B|52 B||
 2020-11-19 00:04:31|27.379µs|307|POST|/article/|::1|145 B|0 B|id=&title=TEST123&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=test1%2Ctest2&|
 2020-11-19 00:04:32|235.368514ms|200|POST|/article|::1|0 B|52 B||
+2020-11-19 15:18:33|53.306037ms|200|POST|/login|::1|0 B|249 B||
+2020-11-19 15:18:33|29.46213ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-19 15:18:36|41.93638ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-19 15:18:39|250.361612ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-11-19 15:18:39|248.108223ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-19 15:18:39|328.875862ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-19 15:18:39|350.507489ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|405 B||
+2020-11-19 15:18:39|398.686073ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.8 KB||
+2020-11-19 15:18:40|391.172389ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-19 15:18:40|44.413163ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.2 KB||
+2020-11-19 15:18:41|5.923456ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-19 15:18:42|132.301859ms|200|GET|/article/128|::1|aid=128|0 B|1.1 KB||
+2020-11-19 15:18:51|34.15µs|307|POST|/article/|::1|148 B|0 B|id=128&title=TEST123&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=test1%2Ctest2&|
+2020-11-19 15:18:51|141.375383ms|500|POST|/article|::1|0 B|17 B|error(empty slice found)|
+2020-11-19 15:20:30|207.481µs|307|POST|/article/|::1|148 B|0 B|id=128&title=TEST123&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=test1%2Ctest2&|
+2020-11-19 15:20:30|181.040549ms|500|POST|/article|::1|0 B|173 B|error(Error 1452: Cannot add or update a child row: a foreign key constraint fails (`vueblog2`.`article`, CONSTRAINT `article_ibfk_2` FOREIGN KEY (`uid`) REFERENCES `user` (`id`)))|
+2020-11-19 15:54:52|261.191µs|307|POST|/article/|::1|148 B|0 B|id=128&title=TEST123&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=test1%2Ctest2&|
+2020-11-19 15:54:52|180.402064ms|200|POST|/article|::1|0 B|52 B||
+2020-11-19 15:55:07|170.187447ms|200|GET|/article/128|::1|aid=128|0 B|1.1 KB||
+2020-11-19 15:55:20|30.951982ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-19 15:55:20|115.078389ms|200|GET|/article/128|::1|aid=128|0 B|1.1 KB||
+2020-11-19 15:55:26|38.396µs|307|POST|/article/|::1|156 B|0 B|id=128&title=TEST123&mdContent=aaaaaaaaaaaaaaaaaaaaa&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A&cid=56&state=1&dynamicTags=test1%2Ctest2%2Ctest3&|
+2020-11-19 15:55:27|218.377844ms|200|POST|/article|::1|0 B|52 B||
+2020-11-19 15:55:32|119.521745ms|200|GET|/article/127|::1|aid=127|0 B|1.1 KB||
+2020-11-19 15:55:35|87.650048ms|200|GET|/article/128|::1|aid=128|0 B|1.2 KB||
+2020-11-19 15:55:39|7.09193ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-19 15:55:39|109.782421ms|200|GET|/article/128|::1|aid=128|0 B|1.2 KB||
+2020-11-19 15:56:08|108.209896ms|200|GET|/article/128|::1|aid=128|0 B|1.2 KB||
+2020-11-19 15:56:19|5.618961ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-19 15:56:19|98.141953ms|200|GET|/article/128|::1|aid=128|0 B|1.2 KB||
+2020-11-19 15:56:49|21.908µs|307|POST|/article/|::1|298 B|0 B|id=128&title=TEST12345&mdContent=aaaaaaaaaaaaaaaaaaaaa%0A%0A1.%20test1%0A2.%20test2%0A3.%20test3&htmlContent=%3Cp%3Eaaaaaaaaaaaaaaaaaaaaa%3C%2Fp%3E%0A%3Col%3E%0A%3Cli%3Etest1%3C%2Fli%3E%0A%3Cli%3Etest2%3C%2Fli%3E%0A%3Cli%3Etest3%3C%2Fli%3E%0A%3C%2Fol%3E%0A&cid=58&state=1&dynamicTags=test1%2Ctest2&|
+2020-11-19 15:56:50|223.301786ms|200|POST|/article|::1|0 B|52 B||
+2020-11-19 15:57:01|15.620269ms|200|POST|/login|::1|0 B|249 B||
+2020-11-19 15:57:01|12.524415ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-11-19 15:57:04|17.507996ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.2 KB||
+2020-11-19 15:57:04|21.105795ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|1.8 KB||
+2020-11-19 15:57:04|17.894936ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-11-19 15:57:04|16.622384ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|405 B||
+2020-11-19 15:57:04|80.136874ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-11-19 15:57:04|118.290478ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-11-19 15:57:04|23.873063ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.2 KB||
+2020-11-19 15:57:06|86.280269ms|200|GET|/article/128|::1|aid=128|0 B|1.4 KB||
+2020-11-19 15:57:12|13.27325ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-11-19 15:57:13|142.970512ms|200|GET|/article/128|::1|aid=128|0 B|1.4 KB||
+2020-11-19 15:57:22|86.815381ms|200|GET|/article/128|::1|aid=128|0 B|1.4 KB||

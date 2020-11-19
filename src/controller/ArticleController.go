@@ -191,14 +191,13 @@ func AddNewArticle(ctx iris.Context) {
 			newArticle.Summary = sh
 		}
 	}
-
+	if newArticle.State == 1 {
+		newArticle.PublishDate = time.Now()
+	}
+	newArticle.EditTime = time.Now()
 	var resp RespBean
 	if newArticle.ID == 0 {
 		//add operate
-		if newArticle.State == 1 {
-			newArticle.PublishDate = time.Now()
-		}
-		newArticle.EditTime = time.Now()
 		//设置当前用户
 		var claims config.UserClaims
 		_ = jwt.ReadClaims(ctx, &claims)
@@ -220,7 +219,13 @@ func AddNewArticle(ctx iris.Context) {
 				}
 			}
 			// create tags
-			tx.Create(&tags)
+			if len(tags) != 0 {
+				res = tx.Create(&tags)
+				if res.Error != nil {
+					return res.Error
+				}
+			}
+
 			// assemble all tag
 			for _, t := range existsTags {
 				tags = append(tags, t)
@@ -232,7 +237,10 @@ func AddNewArticle(ctx iris.Context) {
 
 			// update article
 			newArticle.Tags = tags
-			tx.Save(&newArticle)
+			res = tx.Save(&newArticle)
+			if res.Error != nil {
+				return res.Error
+			}
 
 			return nil
 		})
@@ -247,5 +255,62 @@ func AddNewArticle(ctx iris.Context) {
 		ctx.JSON(resp)
 	} else {
 		// update operate
+		var oldArticle domain.Article
+		config.DB.First(&oldArticle, newArticle.ID)
+		// move old value to new article
+		newArticle.Uid = oldArticle.Uid
+		newArticle.PageView = oldArticle.PageView
+		err := config.DB.Transaction(func(tx *gorm.DB) error {
+			// delete all tags of article
+			res := tx.Exec("DELETE FROM article_tags WHERE aid = ?", newArticle.ID)
+			if res.Error != nil {
+				return res.Error
+			}
+			// set tags
+			var tags []domain.Tags
+			var existsTags []domain.Tags
+			for _, t := range newArticle.DynamicTags {
+				var tag domain.Tags
+				if res := tx.Where("tagName = ?", t).First(&tag); res.Error != nil {
+					tags = append(tags, domain.Tags{TagName: t})
+				} else {
+					existsTags = append(existsTags, tag)
+				}
+			}
+			// create tags
+			if len(tags) != 0 {
+				res = tx.Create(&tags)
+				if res.Error != nil {
+					return res.Error
+				}
+			}
+
+			// assemble all tag
+			for _, t := range existsTags {
+				tags = append(tags, t)
+			}
+
+			if len(newArticle.DynamicTags) != len(tags) {
+				return errors.New("tags set fail.")
+			}
+
+			// update article
+			newArticle.Tags = tags
+			res = tx.Save(&newArticle)
+			if res.Error != nil {
+				return res.Error
+			}
+
+			return nil
+		})
+		if err != nil {
+			ctx.StopWithError(http.StatusInternalServerError, err)
+			return
+		}
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    strconv.Itoa(newArticle.ID),
+		}
+		ctx.JSON(resp)
 	}
 }
