@@ -181,7 +181,11 @@ func AddNewArticle(ctx iris.Context) {
 		ctx.StopWithError(http.StatusBadRequest, err)
 		return
 	}
-	newArticle.DynamicTags = strings.Split(newArticle.DynamicTags[0], ",")
+
+	if len(newArticle.DynamicTags) != 0 {
+		newArticle.DynamicTags = strings.Split(newArticle.DynamicTags[0], ",")
+	}
+
 	// process
 	if newArticle.Summary == "" {
 		sh := stripHtml(newArticle.HtmlContent)
@@ -191,9 +195,7 @@ func AddNewArticle(ctx iris.Context) {
 			newArticle.Summary = sh
 		}
 	}
-	if newArticle.State == 1 {
-		newArticle.PublishDate = time.Now()
-	}
+	newArticle.PublishDate = time.Now()
 	newArticle.EditTime = time.Now()
 	var resp RespBean
 	if newArticle.ID == 0 {
@@ -313,4 +315,13 @@ func AddNewArticle(ctx iris.Context) {
 		}
 		ctx.JSON(resp)
 	}
+}
+
+func UpdateArticleState(ctx iris.Context) {
+	//aids := ctx.PostValues("aids")
+	//state := ctx.PostValueInt("state")
+	//
+	//if state == 2{
+	//
+	//}
 }
