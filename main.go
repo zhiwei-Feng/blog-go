@@ -61,6 +61,7 @@ func newApp() *iris.Application {
 		article.Get("/{aid:int}", controller.GetArticleById)
 		article.Post("/", controller.AddNewArticle)
 		article.Put("/dustbin", controller.UpdateArticleState)
+		article.Put("/restore", controller.RestoreArticle)
 	}
 
 	return app

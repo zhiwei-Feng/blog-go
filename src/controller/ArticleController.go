@@ -361,3 +361,26 @@ func UpdateArticleState(ctx iris.Context) {
 	}
 	ctx.JSON(resp)
 }
+
+func RestoreArticle(ctx iris.Context) {
+	id, err := ctx.PostValueInt("articleId")
+	if err != nil {
+		ctx.StopWithError(http.StatusBadRequest, err)
+		return
+	}
+
+	var resp RespBean
+	res := config.DB.Model(domain.Article{}).Where("id = ?", id).Update("state", 1)
+	if res.Error != nil || res.RowsAffected == 0 {
+		resp = RespBean{
+			Status: http.StatusInternalServerError,
+			Msg:    "还原失败",
+		}
+	} else {
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    "还原成功",
+		}
+	}
+	ctx.JSON(resp)
+}
