@@ -318,10 +318,46 @@ func AddNewArticle(ctx iris.Context) {
 }
 
 func UpdateArticleState(ctx iris.Context) {
-	//aids := ctx.PostValues("aids")
-	//state := ctx.PostValueInt("state")
-	//
-	//if state == 2{
-	//
-	//}
+	aids, err1 := ctx.PostValues("aids")
+	state, err2 := ctx.PostValueInt("state")
+	if err1 != nil || len(aids) == 0 {
+		ctx.StopWithError(http.StatusBadRequest, err1)
+		return
+	}
+	if err2 != nil {
+		ctx.StopWithError(http.StatusBadRequest, err2)
+		return
+	}
+	aids = strings.Split(aids[0], ",")
+	var res *gorm.DB
+	var resp RespBean
+	var aidArray []int
+	for _, aid := range aids {
+		if id, err := strconv.Atoi(aid); err != nil {
+			ctx.StopWithError(http.StatusBadRequest, err1)
+			return
+		} else {
+			aidArray = append(aidArray, id)
+		}
+	}
+	ctx.Application().Logger().Debugf("aidArray len: %v", len(aidArray))
+	if state == 2 {
+		// 已经在回收站内 delete Article by id
+		res = config.DB.Where("id IN ?", aidArray).Delete(domain.Article{})
+	} else {
+		// 放入回收站, update state to 2
+		res = config.DB.Model(&domain.Article{}).Where("id IN ?", aidArray).Update("state", 2)
+	}
+	if res.RowsAffected != int64(len(aids)) {
+		resp = RespBean{
+			Status: http.StatusInternalServerError,
+			Msg:    "删除失败",
+		}
+	} else {
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    "删除成功",
+		}
+	}
+	ctx.JSON(resp)
 }

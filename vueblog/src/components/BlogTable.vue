@@ -104,7 +104,6 @@
       }
     },
     mounted: function () {
-      var _this = this;
       this.loading = true;
       this.loadBlogs(1, this.pageSize);
       var _this = this;
@@ -184,7 +183,7 @@
             if (resp.status == 200) {
               var data = resp.data;
               _this.$message({type: data.status, message: data.msg});
-              if (data.status == 'success') {
+              if (data.status == 200) {
                 window.bus.$emit('blogTableReload')//通过选项卡都重新加载数据
               }
             } else {
@@ -217,7 +216,7 @@
             if (resp.status == 200) {
               var data = resp.data;
               _this.$message({type: data.status, message: data.msg});
-              if (data.status == 'success') {
+              if (data.status == 200) {
                 window.bus.$emit('blogTableReload')//通过选项卡都重新加载数据
               }
             } else {

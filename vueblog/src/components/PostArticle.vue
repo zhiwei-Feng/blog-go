@@ -111,7 +111,7 @@
           dynamicTags: _this.article.dynamicTags
         }).then(resp=> {
           _this.loading = false;
-          if (resp.status == 200 && resp.data.status == 'success') {
+          if (resp.status == 200 && resp.data.status == 200) {
             _this.article.id = resp.data.msg;
             _this.$message({type: 'success', message: state == 0 ? '保存成功!' : '发布成功!'});
 //            if (_this.from != undefined) {
@@ -133,7 +133,7 @@
         formdata.append('image', $file);
         uploadFileRequest("/article/uploadimg", formdata).then(resp=> {
           var json = resp.data;
-          if (json.status == 'success') {
+          if (json.status == 200) {
 //            _this.$refs.md.$imgUpdateByUrl(pos, json.msg)
             _this.$refs.md.$imglst2Url([[pos, json.msg]])
           } else {
