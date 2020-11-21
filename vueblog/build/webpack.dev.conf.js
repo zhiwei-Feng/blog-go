@@ -31,7 +31,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       ? {warnings: false, errors: true}
       : false,
     publicPath: config.dev.assetsPublicPath,
-    // proxy: config.dev.proxyTable,
+    proxy: config.dev.proxyTable,
     // proxy: {
     //   "*": {
     //     target: "https://localhost:8081",

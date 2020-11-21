@@ -4,6 +4,7 @@ import (
 	"blog-go/src/config"
 	"blog-go/src/controller"
 	"github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12/context"
 	"github.com/rs/cors"
 )
 
@@ -16,10 +17,19 @@ func newApp() *iris.Application {
 	app := iris.Default()
 	app.Logger().SetLevel("DEBUG")
 
+	//+--------------------------------+ static resources
+	app.HandleDir("/uploads", iris.Dir("./uploads"))
+	app.HandleDir("/", iris.Dir("./dist"))
+	app.RegisterView(iris.HTML("./dist", ".html"))
+	//+--------------------------------+
+
 	//+--------------------------------+ CORS config
 	c := cors.AllowAll()
 	app.WrapRouter(c.ServeHTTP)
 	//+--------------------------------+
+	app.Get("/", func(ctx *context.Context) {
+		ctx.View("index.html")
+	})
 	app.Post("/login", controller.Login)
 
 	authApi := app.Party("")
@@ -60,6 +70,7 @@ func newApp() *iris.Application {
 		article.Get("/all", controller.GetArticleByState)
 		article.Get("/{aid:int}", controller.GetArticleById)
 		article.Post("/", controller.AddNewArticle)
+		article.Post("/uploadimg", controller.UploadImage)
 		article.Put("/dustbin", controller.UpdateArticleState)
 		article.Put("/restore", controller.RestoreArticle)
 	}
