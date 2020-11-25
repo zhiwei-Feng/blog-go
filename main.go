@@ -5,7 +5,9 @@ import (
 	"blog-go/src/controller"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/context"
+	"github.com/roylee0704/gron"
 	"github.com/rs/cors"
+	"time"
 )
 
 func main() {
@@ -27,10 +29,18 @@ func newApp() *iris.Application {
 	c := cors.AllowAll()
 	app.WrapRouter(c.ServeHTTP)
 	//+--------------------------------+
+
+	//+--------------------------------+ cron config
+	job := gron.New()
+	job.AddFunc(gron.Every(24*time.Hour), controller.StatisticsUpdate)
+	job.Start()
+
+	//+--------------------------------+ router config
 	app.Get("/", func(ctx *context.Context) {
 		ctx.View("index.html")
 	})
 	app.Post("/login", controller.Login)
+	app.Get("/updateStatistics", controller.PvStatisticsPerDay)
 
 	authApi := app.Party("")
 	authApi.Use(config.J.Verify)

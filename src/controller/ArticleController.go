@@ -388,3 +388,12 @@ func RestoreArticle(ctx iris.Context) {
 	}
 	ctx.JSON(resp)
 }
+
+func PvStatisticsPerDay(ctx iris.Context) {
+	// 手动更新
+	StatisticsUpdate()
+}
+
+func StatisticsUpdate() {
+	config.DB.Exec("INSERT INTO pv(countDate,pv,uid) SELECT CURRENT_DATE(),totalPv-pv,t.`uid` FROM pvview p,totalpvview t WHERE p.`uid`=t.`uid`")
+}
