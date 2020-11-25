@@ -8,6 +8,7 @@ import (
 	"github.com/kataras/iris/v12/middleware/jwt"
 	"gorm.io/gorm"
 	"net/http"
+	"regexp"
 	"strconv"
 	"strings"
 	"time"
@@ -169,9 +170,12 @@ func GetArticleById(ctx iris.Context) {
 }
 
 func stripHtml(content string) string {
-	content = strings.ReplaceAll(content, "<p .*?>", "")
-	content = strings.ReplaceAll(content, "<br\\s*/?>", "")
-	content = strings.ReplaceAll(content, "\\<.*?>", "")
+	reg, _ := regexp.Compile("<p .*?>")
+	content = reg.ReplaceAllString(content, "")
+	reg, _ = regexp.Compile("<br\\s*/?>")
+	content = reg.ReplaceAllString(content, "")
+	reg, _ = regexp.Compile("\\<.*?>")
+	content = reg.ReplaceAllString(content, "")
 	return content
 }
 
