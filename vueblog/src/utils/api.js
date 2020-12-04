@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from '../utils/intercept'
 
 let base = 'http://localhost:8081';
 export const postRequest = (url, params) => {
@@ -52,10 +52,10 @@ export const deleteRequest = (url) => {
     url: `${base}${url}`
   });
 }
-export const getRequest = (url,params) => {
+export const getRequest = (url, params) => {
   return axios({
     method: 'get',
-    data:params,
+    data: params,
     transformRequest: [function (data) {
       let ret = ''
       for (let it in data) {

@@ -56,6 +56,7 @@ func newApp() *iris.Application {
 		admin.Get("/user", controller.GetUserByNickname)
 		admin.Get("/user/{id:int}", controller.GetUserById)
 		admin.Get("/roles", controller.GetAllRoles)
+		admin.Post("/user", controller.AddUser)
 		admin.Put("/user/role", controller.UpdateUserRoles)
 		admin.Put("/user/enabled", controller.SwitchUserEnableStatus)
 		admin.Delete("/user/{id:int}", controller.DeleteUserById)

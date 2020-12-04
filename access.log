@@ -3407,3 +3407,806 @@ IV���81�Mv�@Y�O�1�F9�Z1;"�I2����nӁ��h�*����8���N�Ү<1SI�̍X�~îӹ���U��
 2020-11-25 14:32:07|14.864369ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
 2020-11-25 14:32:19|5.385111ms|200|GET|/admin/category/all|::1|0 B|624 B||
 2020-11-25 14:32:21|16.605537ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 14:38:57|368.537µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 14:38:57|10.218059ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 14:38:58|1.156697ms|200|GET|/static/js/manifest.c63614919a9da900142b.js|::1|file=static/js/manifest.c63614919a9da900142b.js|0 B|10 B||
+2020-12-04 14:38:58|2.072278ms|200|GET|/static/js/app.40e040bc8348592a956f.js|::1|file=static/js/app.40e040bc8348592a956f.js|0 B|10 B||
+2020-12-04 14:38:58|110.562407ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 14:38:59|91.291µs|404|GET|/favicon.ico|::1|0 B|9 B||
+2020-12-04 14:39:03|66.426406ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 14:39:03|2.661264ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 14:39:03|9.890153ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 14:43:21|471.263µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 14:43:25|57.084718ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 14:43:25|8.858563ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 14:43:30|48.836273ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|2.1 KB||
+2020-12-04 14:43:30|82.727534ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 14:43:30|17.80876ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 14:43:30|14.786305ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 14:43:30|52.676353ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|1.1 KB||
+2020-12-04 14:43:30|33.337948ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-12-04 14:43:30|25.528083ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 14:43:35|30.209972ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:00:19|467.932µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:00:19|2.3569ms|200|GET|/static/js/manifest.4403caed123c6c7b5a87.js|::1|file=static/js/manifest.4403caed123c6c7b5a87.js|0 B|10 B||
+2020-12-04 15:00:19|6.211516ms|200|GET|/static/js/app.d83a2144d1566f9a3fb0.js|::1|file=static/js/app.d83a2144d1566f9a3fb0.js|0 B|10 B||
+2020-12-04 15:00:20|18.428µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:00:20|13.682µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:00:25|18.230214ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:00:26|6.718433ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:00:27|23.763181ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:00:34|2.125007ms|200|GET|/static/js/manifest.4403caed123c6c7b5a87.js.map|::1|file=static/js/manifest.4403caed123c6c7b5a87.js.map|0 B|10 B||
+2020-12-04 15:00:34|21.040034ms|200|GET|/static/js/app.d83a2144d1566f9a3fb0.js.map|::1|file=static/js/app.d83a2144d1566f9a3fb0.js.map|0 B|28.1 KB||
+2020-12-04 15:00:34|13.615768ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:00:35|342.567342ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:01:17|107.256665ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 15:01:17|131.843794ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 15:01:17|217.098977ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|2.1 KB||
+2020-12-04 15:01:17|243.631987ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:01:17|263.172726ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|1.1 KB||
+2020-12-04 15:01:17|283.991332ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-12-04 15:01:17|25.255537ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 15:01:22|10.363161ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:01:22|152.700763ms|200|GET|/article/141|::1|aid=141|0 B|3.1 KB||
+2020-12-04 15:01:23|24.864248ms|200|GET|/uploads/暹罗猫.jpg|::1|file=暹罗猫.jpg|0 B|320.0 KB||
+2020-12-04 15:01:23|8.923382ms|200|GET|/uploads/暹罗猫.jpg|::1|file=暹罗猫.jpg|0 B|320.0 KB||
+2020-12-04 15:01:32|18.745286ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:03:15|5.505811ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:03:16|44.074µs|307|POST|/admin/category/|::1|10 B|0 B|cateName=&|
+2020-12-04 15:03:16|45.615095ms|200|POST|/admin/category|::1|0 B|61 B||
+2020-12-04 15:03:16|10.854106ms|200|GET|/admin/category/all|::1|0 B|707 B||
+2020-12-04 15:03:20|48.346295ms|200|DELETE|/admin/category/72|::1|ids=72|0 B|58 B||
+2020-12-04 15:03:20|19.98809ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:04:01|19.907µs|307|POST|/admin/category/|::1|10 B|0 B|cateName=&|
+2020-12-04 15:04:01|67.40707ms|200|POST|/admin/category|::1|0 B|61 B||
+2020-12-04 15:04:01|23.364569ms|200|GET|/admin/category/all|::1|0 B|707 B||
+2020-12-04 15:04:04|36.300745ms|200|DELETE|/admin/category/73|::1|ids=73|0 B|58 B||
+2020-12-04 15:04:04|12.879623ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:06:22|14.115519ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:06:23|8.470817ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:06:24|38.503289ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:07:23|445.881µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:07:23|1.524315ms|200|GET|/static/js/manifest.1e4bf487193ba27e2f97.js|::1|file=static/js/manifest.1e4bf487193ba27e2f97.js|0 B|10 B||
+2020-12-04 15:07:23|1.562622ms|200|GET|/static/js/app.802568ddc05f8486153e.js|::1|file=static/js/app.802568ddc05f8486153e.js|0 B|10 B||
+2020-12-04 15:07:24|66.129µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:07:24|15.671µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:07:34|10.474345ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:07:34|667.151µs|200|GET|/static/js/manifest.1e4bf487193ba27e2f97.js.map|::1|file=static/js/manifest.1e4bf487193ba27e2f97.js.map|0 B|10 B||
+2020-12-04 15:07:34|7.017152ms|200|GET|/static/js/app.802568ddc05f8486153e.js.map|::1|file=static/js/app.802568ddc05f8486153e.js.map|0 B|27.9 KB||
+2020-12-04 15:07:34|335.477696ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:07:44|16.3983ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:07:44|8.072591ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:07:45|19.572656ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:13:06|800.38µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:13:06|1.12074ms|200|GET|/static/js/manifest.36047e6661da4df6c71a.js|::1|file=static/js/manifest.36047e6661da4df6c71a.js|0 B|10 B||
+2020-12-04 15:13:06|8.241877ms|200|GET|/static/js/app.42753032a5c8ccc16f5a.js|::1|file=static/js/app.42753032a5c8ccc16f5a.js|0 B|10 B||
+2020-12-04 15:13:08|13.079925ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:13:08|9.126128ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:13:09|22.916909ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:14:22|42.630148ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:14:27|5.128598ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:14:28|77.308101ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 15:14:28|127.436097ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|2.1 KB||
+2020-12-04 15:14:28|87.738973ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 15:14:28|132.88926ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|1.1 KB||
+2020-12-04 15:14:28|124.439299ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-12-04 15:14:28|148.087826ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:14:28|34.657007ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 15:14:31|4.593573ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:14:36|8.502411ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:14:36|158.835727ms|200|GET|/article/141|::1|aid=141|0 B|3.1 KB||
+2020-12-04 15:14:39|17.549743ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:15:45|9.03983ms|200|POST|/login|::1|0 B|256 B||
+2020-12-04 15:15:45|5.47223ms|200|GET|/currentUserName|::1|0 B|9 B||
+2020-12-04 15:15:51|22.242783ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:15:52|4.885228ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:15:53|21.362977ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:16:01|6.454441ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:03|45.654755ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|40 B||
+2020-12-04 15:16:03|51.060797ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|40 B||
+2020-12-04 15:16:03|56.720314ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 15:16:03|87.657122ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:16:03|97.333906ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-12-04 15:16:03|97.890722ms|200|GET|/isAdmin|::1|0 B|6 B||
+2020-12-04 15:16:10|4.710455ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:11|18.692177ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:16:12|4.71295ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:13|14.395065ms|200|GET|/article/dataStatistics|::1|0 B|39 B||
+2020-12-04 15:16:15|3.859606ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:16|21.601897ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:16:17|4.263362ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:25|13.345505ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:16:25|6.210682ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:16:27|20.682734ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:16:42|9.839301ms|200|POST|/login|::1|0 B|258 B||
+2020-12-04 15:16:42|7.790966ms|200|GET|/currentUserName|::1|0 B|12 B||
+2020-12-04 15:16:43|3.818019ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:45|18.50224ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:16:48|6.82351ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:49|48.833573ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|40 B||
+2020-12-04 15:16:49|48.529173ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|40 B||
+2020-12-04 15:16:49|55.972726ms|200|GET|/currentUserEmail|::1|0 B|20 B||
+2020-12-04 15:16:49|82.741309ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-12-04 15:16:49|91.143486ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:16:49|131.315602ms|200|GET|/isAdmin|::1|0 B|6 B||
+2020-12-04 15:16:51|5.353048ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:16:52|5.02921ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:18:36|20.066789ms|200|POST|/login|::1|0 B|63 B||
+2020-12-04 15:18:40|7.944459ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:18:40|4.878745ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:18:42|17.862738ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:19:09|26.409946ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 15:19:09|15.419861ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 15:19:09|54.488951ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|2.1 KB||
+2020-12-04 15:19:09|48.882346ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:19:09|71.809941ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|1.1 KB||
+2020-12-04 15:19:09|46.869419ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-12-04 15:19:09|62.814285ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 15:19:15|21.600099ms|200|GET|/article/all|::1|count=6 keywords= page=2 state=-1|0 B|2.2 KB||
+2020-12-04 15:19:18|21.082851ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 15:19:21|24.630426ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:19:29|13.015287ms|200|POST|/login|::1|0 B|256 B||
+2020-12-04 15:19:29|4.943231ms|200|GET|/currentUserName|::1|0 B|9 B||
+2020-12-04 15:19:31|2.980548ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:20:13|63.078µs|307|POST|/article/|::1|375 B|0 B|id=&title=%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E5%BE%88%E5%A5%BD&mdContent=%23%20%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%20%23%0A%0A%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E5%BE%88%E4%B8%8D%E9%94%99&htmlContent=%3Ch1%3E%E5%A4%A9%E6%B0%94%E4%B8%8D%E9%94%99%3C%2Fh1%3E%0A%3Cp%3E%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E5%BE%88%E4%B8%8D%E9%94%99%3C%2Fp%3E%0A&cid=58&state=1&dynamicTags=&|
+2020-12-04 15:20:13|54.267027ms|200|POST|/article|::1|0 B|52 B||
+2020-12-04 15:20:14|58.052702ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|402 B||
+2020-12-04 15:20:14|86.503717ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|402 B||
+2020-12-04 15:20:14|73.375236ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 15:20:14|113.501068ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-12-04 15:20:14|80.615139ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|402 B||
+2020-12-04 15:20:14|137.194612ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:20:14|103.042006ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|402 B||
+2020-12-04 15:20:14|101.758451ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-12-04 15:20:14|103.42068ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|402 B||
+2020-12-04 15:20:14|134.154353ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|402 B||
+2020-12-04 15:20:14|127.220809ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:20:14|179.255552ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-12-04 15:20:14|108.468088ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|402 B||
+2020-12-04 15:20:14|154.765922ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|402 B||
+2020-12-04 15:20:14|89.068035ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 15:20:14|157.406589ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:20:14|57.831058ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-12-04 15:20:14|202.617794ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 15:20:14|74.870042ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|402 B||
+2020-12-04 15:20:14|59.760856ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|402 B||
+2020-12-04 15:20:14|69.069548ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|40 B||
+2020-12-04 15:20:14|142.346461ms|200|GET|/isAdmin|::1|0 B|6 B||
+2020-12-04 15:20:14|126.336152ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:20:14|15.95405ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:20:27|40.374628ms|200|GET|/article/144|::1|aid=144|0 B|1.1 KB||
+2020-12-04 15:20:58|21.740768ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:31:34|10.794166ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:31:34|6.072029ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:31:35|18.693149ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:31:39|1.520748ms|200|GET|/static/js/manifest.36047e6661da4df6c71a.js.map|::1|file=static/js/manifest.36047e6661da4df6c71a.js.map|0 B|10 B||
+2020-12-04 15:31:39|6.12827ms|200|GET|/static/js/app.42753032a5c8ccc16f5a.js.map|::1|file=static/js/app.42753032a5c8ccc16f5a.js.map|0 B|27.7 KB||
+2020-12-04 15:31:40|20.05982ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:31:40|341.904513ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:32:07|22.455295ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 15:32:07|19.314237ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|2.1 KB||
+2020-12-04 15:32:07|19.358324ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|1.1 KB||
+2020-12-04 15:32:07|38.497642ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 15:32:07|15.915238ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 15:32:07|43.156774ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-12-04 15:32:07|22.397765ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 15:32:09|52.516922ms|200|GET|/article/141|::1|aid=141|0 B|3.1 KB||
+2020-12-04 15:32:09|5.188601ms|200|GET|/uploads/暹罗猫.jpg|::1|file=暹罗猫.jpg|0 B|320.0 KB||
+2020-12-04 15:32:22|19.285544ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:37:25|14.198864ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:37:25|7.530266ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:37:26|21.594207ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:38:03|360.666µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:38:04|11.107507ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:38:04|1.285326ms|200|GET|/static/js/manifest.cfa527fd3ef63f646eb6.js|::1|file=static/js/manifest.cfa527fd3ef63f646eb6.js|0 B|10 B||
+2020-12-04 15:38:04|4.68199ms|200|GET|/static/js/app.b8b01e76a9127a9d4182.js|::1|file=static/js/app.b8b01e76a9127a9d4182.js|0 B|10 B||
+2020-12-04 15:38:04|69.682739ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:38:04|5.020193ms|200|GET|/static/js/manifest.cfa527fd3ef63f646eb6.js.map|::1|file=static/js/manifest.cfa527fd3ef63f646eb6.js.map|0 B|10 B||
+2020-12-04 15:38:04|15.244474ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:38:04|14.985µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:38:04|11.517µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:38:04|6.141405ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:38:04|10.556549ms|200|GET|/static/js/app.b8b01e76a9127a9d4182.js.map|::1|file=static/js/app.b8b01e76a9127a9d4182.js.map|0 B|28.1 KB||
+2020-12-04 15:38:05|525.359309ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:38:12|8.499326ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:38:12|4.680646ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:38:13|17.649062ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:38:22|475.958µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 15:38:22|695.17µs|200|GET|/static/js/manifest.cfa527fd3ef63f646eb6.js.map|::1|file=static/js/manifest.cfa527fd3ef63f646eb6.js.map|0 B|10 B||
+2020-12-04 15:38:22|4.252351ms|200|GET|/static/js/app.b8b01e76a9127a9d4182.js.map|::1|file=static/js/app.b8b01e76a9127a9d4182.js.map|0 B|28.1 KB||
+2020-12-04 15:38:22|7.514645ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:38:23|315.123773ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:42:40|520.908µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:42:40|19.964087ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:42:40|2.730476ms|200|GET|/static/js/manifest.28ffe2189c89009732b8.js|::1|file=static/js/manifest.28ffe2189c89009732b8.js|0 B|10 B||
+2020-12-04 15:42:40|3.166779ms|200|GET|/static/js/app.bdbc39118ffebf32d752.js|::1|file=static/js/app.bdbc39118ffebf32d752.js|0 B|10 B||
+2020-12-04 15:42:40|3.599648ms|200|GET|/static/js/manifest.28ffe2189c89009732b8.js.map|::1|file=static/js/manifest.28ffe2189c89009732b8.js.map|0 B|10 B||
+2020-12-04 15:42:40|11.001964ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:42:40|103.112071ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:42:41|22.323µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:42:41|11.26µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:42:41|1.372332ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:42:41|9.280751ms|200|GET|/static/js/app.bdbc39118ffebf32d752.js.map|::1|file=static/js/app.bdbc39118ffebf32d752.js.map|0 B|28.1 KB||
+2020-12-04 15:42:41|440.176815ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:43:13|31.65µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:43:13|10.424128ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:43:13|2.402054ms|200|GET|/static/js/manifest.28ffe2189c89009732b8.js|::1|file=static/js/manifest.28ffe2189c89009732b8.js|0 B|10 B||
+2020-12-04 15:43:13|2.784114ms|200|GET|/static/js/app.bdbc39118ffebf32d752.js|::1|file=static/js/app.bdbc39118ffebf32d752.js|0 B|10 B||
+2020-12-04 15:43:13|73.594063ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:43:13|9.128028ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:43:13|1.194611ms|200|GET|/static/js/manifest.28ffe2189c89009732b8.js.map|::1|file=static/js/manifest.28ffe2189c89009732b8.js.map|0 B|10 B||
+2020-12-04 15:43:14|14.788µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:43:14|16.054µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:43:14|6.400533ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:43:14|16.757869ms|200|GET|/static/js/app.bdbc39118ffebf32d752.js.map|::1|file=static/js/app.bdbc39118ffebf32d752.js.map|0 B|28.1 KB||
+2020-12-04 15:43:14|422.158977ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:43:17|29.945µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:43:17|9.299238ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:43:17|2.102942ms|200|GET|/static/js/app.bdbc39118ffebf32d752.js|::1|file=static/js/app.bdbc39118ffebf32d752.js|0 B|10 B||
+2020-12-04 15:43:17|7.045838ms|200|GET|/static/js/manifest.28ffe2189c89009732b8.js|::1|file=static/js/manifest.28ffe2189c89009732b8.js|0 B|10 B||
+2020-12-04 15:43:17|8.391285ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:43:17|179.618515ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:43:17|347.178µs|200|GET|/static/js/manifest.28ffe2189c89009732b8.js.map|::1|file=static/js/manifest.28ffe2189c89009732b8.js.map|0 B|10 B||
+2020-12-04 15:43:18|12.061µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:43:18|10.812µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:43:18|804.813µs|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:43:18|5.174182ms|200|GET|/static/js/app.bdbc39118ffebf32d752.js.map|::1|file=static/js/app.bdbc39118ffebf32d752.js.map|0 B|28.1 KB||
+2020-12-04 15:43:18|367.513442ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:50:01|377.989µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:50:02|9.734733ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:50:02|1.214511ms|200|GET|/static/js/manifest.f8274eab515af9b3400a.js|::1|file=static/js/manifest.f8274eab515af9b3400a.js|0 B|10 B||
+2020-12-04 15:50:02|1.97782ms|200|GET|/static/js/app.d3f71012373f88fb3827.js|::1|file=static/js/app.d3f71012373f88fb3827.js|0 B|10 B||
+2020-12-04 15:50:02|54.249046ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:50:02|9.784534ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:50:02|581.07µs|200|GET|/static/js/manifest.f8274eab515af9b3400a.js.map|::1|file=static/js/manifest.f8274eab515af9b3400a.js.map|0 B|10 B||
+2020-12-04 15:50:02|22.053µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:50:02|13.153µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:50:02|2.74168ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:50:02|9.829059ms|200|GET|/static/js/app.d3f71012373f88fb3827.js.map|::1|file=static/js/app.d3f71012373f88fb3827.js.map|0 B|27.4 KB||
+2020-12-04 15:50:03|397.029211ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:50:04|31.191µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:50:04|5.954657ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:50:04|618.795µs|200|GET|/static/js/manifest.f8274eab515af9b3400a.js|::1|file=static/js/manifest.f8274eab515af9b3400a.js|0 B|10 B||
+2020-12-04 15:50:04|800.38µs|200|GET|/static/js/app.d3f71012373f88fb3827.js|::1|file=static/js/app.d3f71012373f88fb3827.js|0 B|10 B||
+2020-12-04 15:50:04|79.302775ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:50:05|8.396316ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:50:05|417.043µs|200|GET|/static/js/manifest.f8274eab515af9b3400a.js.map|::1|file=static/js/manifest.f8274eab515af9b3400a.js.map|0 B|10 B||
+2020-12-04 15:50:05|13.992µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:50:05|11.318µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:50:05|843.406µs|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:50:05|3.968107ms|200|GET|/static/js/app.d3f71012373f88fb3827.js.map|::1|file=static/js/app.d3f71012373f88fb3827.js.map|0 B|27.4 KB||
+2020-12-04 15:50:05|350.215792ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:50:10|31.579µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:50:10|8.195616ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:50:10|318.012µs|200|GET|/static/js/manifest.f8274eab515af9b3400a.js|::1|file=static/js/manifest.f8274eab515af9b3400a.js|0 B|10 B||
+2020-12-04 15:50:10|581.116µs|200|GET|/static/js/app.d3f71012373f88fb3827.js|::1|file=static/js/app.d3f71012373f88fb3827.js|0 B|10 B||
+2020-12-04 15:50:10|7.747081ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:50:10|14.924706ms|200|GET|/static/js/manifest.f8274eab515af9b3400a.js.map|::1|file=static/js/manifest.f8274eab515af9b3400a.js.map|0 B|10 B||
+2020-12-04 15:50:10|137.376182ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:50:11|16.423µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:50:11|11.438µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:50:11|2.183501ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:50:11|16.224955ms|200|GET|/static/js/app.d3f71012373f88fb3827.js.map|::1|file=static/js/app.d3f71012373f88fb3827.js.map|0 B|27.4 KB||
+2020-12-04 15:50:11|402.902966ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:50:18|20.175411ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 15:50:18|5.64342ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 15:50:19|16.912586ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:50:34|33.047µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:50:34|162.185µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 15:50:34|175.651µs|304|GET|/static/js/manifest.f8274eab515af9b3400a.js|::1|file=static/js/manifest.f8274eab515af9b3400a.js|0 B|0 B||
+2020-12-04 15:50:35|21.469196ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:50:35|342.589µs|200|GET|/static/js/manifest.f8274eab515af9b3400a.js.map|::1|file=static/js/manifest.f8274eab515af9b3400a.js.map|0 B|10 B||
+2020-12-04 15:50:35|143.795µs|304|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|0 B||
+2020-12-04 15:50:35|116.555µs|304|GET|/static/js/app.d3f71012373f88fb3827.js|::1|file=static/js/app.d3f71012373f88fb3827.js|0 B|0 B||
+2020-12-04 15:50:35|195.249289ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 15:50:35|176.368µs|304|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|0 B||
+2020-12-04 15:50:35|16.59µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:50:35|13.254µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:50:35|5.792437ms|200|GET|/static/js/app.d3f71012373f88fb3827.js.map|::1|file=static/js/app.d3f71012373f88fb3827.js.map|0 B|27.4 KB||
+2020-12-04 15:50:37|7.639653ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 15:50:38|36.720837ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 15:54:43|513.683µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 15:54:44|1.652624ms|200|GET|/static/js/manifest.d21ce98b86a0a342c509.js|::1|file=static/js/manifest.d21ce98b86a0a342c509.js|0 B|10 B||
+2020-12-04 15:54:44|418.654µs|200|GET|/static/js/app.36c109be23cc1d972630.js|::1|file=static/js/app.36c109be23cc1d972630.js|0 B|10 B||
+2020-12-04 15:54:44|6.85001ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 15:54:44|127.474033ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 15:54:44|8.216516ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 15:54:44|548.405µs|200|GET|/static/js/manifest.d21ce98b86a0a342c509.js.map|::1|file=static/js/manifest.d21ce98b86a0a342c509.js.map|0 B|10 B||
+2020-12-04 15:54:44|31.498µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 15:54:44|21.532µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 15:54:44|2.205157ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 15:54:45|6.2976ms|200|GET|/static/js/app.36c109be23cc1d972630.js.map|::1|file=static/js/app.36c109be23cc1d972630.js.map|0 B|28.1 KB||
+2020-12-04 15:54:45|584.36495ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 16:01:24|742.087µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 16:01:24|13.013246ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 16:01:25|890.073µs|200|GET|/static/js/manifest.b09c65714a1487885e07.js|::1|file=static/js/manifest.b09c65714a1487885e07.js|0 B|10 B||
+2020-12-04 16:01:25|1.473216ms|200|GET|/static/js/app.7fa15facc16d211b5561.js|::1|file=static/js/app.7fa15facc16d211b5561.js|0 B|10 B||
+2020-12-04 16:01:25|107.27548ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 16:01:25|25.354µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 16:01:25|6.417µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 16:01:25|2.507342ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 16:07:59|678.544µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 16:07:59|14.012059ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 16:07:59|955.737µs|200|GET|/static/js/manifest.5a50231740b9d76cf337.js|::1|file=static/js/manifest.5a50231740b9d76cf337.js|0 B|10 B||
+2020-12-04 16:07:59|1.110788ms|200|GET|/static/js/app.e9786642d1004f30fbe1.js|::1|file=static/js/app.e9786642d1004f30fbe1.js|0 B|10 B||
+2020-12-04 16:07:59|122.656802ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 16:08:00|20.84µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 16:08:00|8.742µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 16:08:00|3.475556ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 16:08:07|182.898µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 16:08:07|862.898µs|200|GET|/static/js/manifest.5a50231740b9d76cf337.js.map|::1|file=static/js/manifest.5a50231740b9d76cf337.js.map|0 B|10 B||
+2020-12-04 16:08:07|6.521404ms|200|GET|/static/js/app.e9786642d1004f30fbe1.js.map|::1|file=static/js/app.e9786642d1004f30fbe1.js.map|0 B|27.9 KB||
+2020-12-04 16:08:07|14.300326ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 16:08:07|300.265885ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 16:28:46|552.051µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 16:28:46|25.140686ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 16:28:46|2.706936ms|200|GET|/static/js/manifest.e920fbd7885ee74aaa71.js|::1|file=static/js/manifest.e920fbd7885ee74aaa71.js|0 B|10 B||
+2020-12-04 16:28:46|1.431157ms|200|GET|/static/js/app.591fd24448085f76f59d.js|::1|file=static/js/app.591fd24448085f76f59d.js|0 B|10 B||
+2020-12-04 16:28:46|68.368946ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 16:28:46|1.100301ms|200|GET|/static/js/manifest.e920fbd7885ee74aaa71.js.map|::1|file=static/js/manifest.e920fbd7885ee74aaa71.js.map|0 B|10 B||
+2020-12-04 16:28:46|13.36519ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 16:28:46|36.83µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 16:28:46|10.229µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 16:28:46|4.959034ms|200|GET|/static/js/app.591fd24448085f76f59d.js.map|::1|file=static/js/app.591fd24448085f76f59d.js.map|0 B|27.9 KB||
+2020-12-04 16:28:47|7.532537ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 16:28:47|281.308403ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 16:28:52|903.717µs|200|GET|/static/js/manifest.e920fbd7885ee74aaa71.js.map|::1|file=static/js/manifest.e920fbd7885ee74aaa71.js.map|0 B|10 B||
+2020-12-04 16:28:52|6.854909ms|200|GET|/static/js/app.591fd24448085f76f59d.js.map|::1|file=static/js/app.591fd24448085f76f59d.js.map|0 B|27.9 KB||
+2020-12-04 16:28:52|7.514379ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 16:28:52|240.362892ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 16:28:57|20.407µs|404|POST|/test|::1|26 B|9 B|username=aaaa&nickname=aa&|
+2020-12-04 16:44:38|574.231µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 16:44:38|8.398723ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 16:44:38|747.369µs|200|GET|/static/js/manifest.cddbf1406912e7d2138d.js|::1|file=static/js/manifest.cddbf1406912e7d2138d.js|0 B|10 B||
+2020-12-04 16:44:38|1.513296ms|200|GET|/static/js/app.4dc34dd078babba24018.js|::1|file=static/js/app.4dc34dd078babba24018.js|0 B|10 B||
+2020-12-04 16:44:38|51.612802ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 16:44:38|896.033µs|200|GET|/static/js/manifest.cddbf1406912e7d2138d.js.map|::1|file=static/js/manifest.cddbf1406912e7d2138d.js.map|0 B|10 B||
+2020-12-04 16:44:38|11.310457ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 16:44:39|37.543µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 16:44:39|6.102µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 16:44:39|1.892975ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 16:44:39|40.273505ms|200|GET|/static/js/app.4dc34dd078babba24018.js.map|::1|file=static/js/app.4dc34dd078babba24018.js.map|0 B|27.9 KB||
+2020-12-04 16:44:39|339.693645ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 16:44:44|22.072µs|404|POST|/test|::1|23 B|9 B|username=111&nickname=&|
+2020-12-04 18:01:51|805.41µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 18:01:51|19.143219ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 18:01:51|908.36µs|200|GET|/static/js/manifest.2353383d1fbccb3d4e1d.js|::1|file=static/js/manifest.2353383d1fbccb3d4e1d.js|0 B|10 B||
+2020-12-04 18:01:51|2.013103ms|200|GET|/static/js/app.af5d6d982d5ad43e1d6c.js|::1|file=static/js/app.af5d6d982d5ad43e1d6c.js|0 B|10 B||
+2020-12-04 18:01:51|19.244201ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 18:01:51|487.88µs|200|GET|/static/js/manifest.2353383d1fbccb3d4e1d.js.map|::1|file=static/js/manifest.2353383d1fbccb3d4e1d.js.map|0 B|10 B||
+2020-12-04 18:01:51|77.237688ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 18:01:52|23.452µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 18:01:52|14.13µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 18:01:52|5.389877ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 18:01:52|11.98369ms|200|GET|/static/js/app.af5d6d982d5ad43e1d6c.js.map|::1|file=static/js/app.af5d6d982d5ad43e1d6c.js.map|0 B|27.9 KB||
+2020-12-04 18:01:52|468.742579ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 18:01:55|21.704µs|404|POST|/test|::1|20 B|9 B|username=&nickname=&|
+2020-12-04 18:02:13|17.639µs|404|POST|/test|::1|20 B|9 B|username=&nickname=&|
+2020-12-04 18:02:18|16.903µs|404|POST|/test|::1|20 B|9 B|username=&nickname=&|
+2020-12-04 18:26:28|671.414µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 18:26:29|11.242562ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 18:26:29|849.298µs|200|GET|/static/js/manifest.930a7796be77d8d94d76.js|::1|file=static/js/manifest.930a7796be77d8d94d76.js|0 B|10 B||
+2020-12-04 18:26:29|1.713564ms|200|GET|/static/js/app.4ec36aaeb2c065f9508e.js|::1|file=static/js/app.4ec36aaeb2c065f9508e.js|0 B|10 B||
+2020-12-04 18:26:29|177.21397ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 18:26:29|1.143589ms|200|GET|/static/js/manifest.930a7796be77d8d94d76.js.map|::1|file=static/js/manifest.930a7796be77d8d94d76.js.map|0 B|10 B||
+2020-12-04 18:26:29|9.999095ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 18:26:29|22.893µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 18:26:29|14.755µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 18:26:29|8.666803ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 18:26:30|30.894964ms|200|GET|/static/js/app.4ec36aaeb2c065f9508e.js.map|::1|file=static/js/app.4ec36aaeb2c065f9508e.js.map|0 B|27.9 KB||
+2020-12-04 18:26:30|389.077963ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 18:26:32|26.832µs|404|POST|/test|::1|20 B|9 B|username=&nickname=&|
+2020-12-04 18:26:54|270.378µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 18:26:57|52.09µs|404|POST|/test|::1|20 B|9 B|username=&nickname=&|
+2020-12-04 18:27:16|18.718µs|404|POST|/test|::1|20 B|9 B|username=&nickname=&|
+2020-12-04 18:34:15|386.794µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 18:34:15|7.981337ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 18:34:15|3.504183ms|200|GET|/static/js/manifest.8a4c4324d01a372944bb.js|::1|file=static/js/manifest.8a4c4324d01a372944bb.js|0 B|10 B||
+2020-12-04 18:34:15|2.097407ms|200|GET|/static/js/app.28491d8d09e4b798ac0e.js|::1|file=static/js/app.28491d8d09e4b798ac0e.js|0 B|10 B||
+2020-12-04 18:34:15|216.837793ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 18:34:16|889.954µs|200|GET|/static/js/manifest.8a4c4324d01a372944bb.js.map|::1|file=static/js/manifest.8a4c4324d01a372944bb.js.map|0 B|10 B||
+2020-12-04 18:34:16|21.130428ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 18:34:16|23.41µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 18:34:16|13.499µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 18:34:16|1.721179ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 18:34:16|49.220301ms|200|GET|/static/js/app.28491d8d09e4b798ac0e.js.map|::1|file=static/js/app.28491d8d09e4b798ac0e.js.map|0 B|27.9 KB||
+2020-12-04 18:34:17|531.125487ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 18:34:35|22.394µs|404|POST|/test|::1|27 B|9 B|username=aaaa&nickname=aaa&|
+2020-12-04 18:46:12|92.554088ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 18:46:12|8.055707ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 18:46:13|64.076297ms|200|GET|/admin/user|::1|nickname=|0 B|5.6 KB||
+2020-12-04 18:46:45|36.127179ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 18:48:24|11.966473ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 18:48:30|8.674412ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 18:51:59|12.092265ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 18:52:03|6.965456ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 18:52:07|232.753689ms|200|PUT|/admin/user/role|::1|0 B|61 B||
+2020-12-04 18:52:07|125.68712ms|200|GET|/admin/user/10|::1|id=10|0 B|665 B||
+2020-12-04 18:57:44|1.122281ms|200|GET|/|::1|0 B|509 B||
+2020-12-04 18:57:44|12.398327ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 18:57:44|1.045179ms|200|GET|/static/js/manifest.1b9647b17050004355cc.js|::1|file=static/js/manifest.1b9647b17050004355cc.js|0 B|10 B||
+2020-12-04 18:57:44|1.46711ms|200|GET|/static/js/app.62380eb3df7199733d1c.js|::1|file=static/js/app.62380eb3df7199733d1c.js|0 B|10 B||
+2020-12-04 18:57:44|82.176972ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 18:57:45|11.841552ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 18:57:45|1.610575ms|200|GET|/static/js/manifest.1b9647b17050004355cc.js.map|::1|file=static/js/manifest.1b9647b17050004355cc.js.map|0 B|10 B||
+2020-12-04 18:57:45|21.566µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 18:57:45|13.507µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 18:57:45|25.173µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 18:57:45|4.151223ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 18:57:45|8.341204ms|200|GET|/static/js/app.62380eb3df7199733d1c.js.map|::1|file=static/js/app.62380eb3df7199733d1c.js.map|0 B|28.1 KB||
+2020-12-04 18:57:46|532.502931ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 18:57:59|34.612204ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 18:57:59|5.568204ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 18:58:01|44.963088ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 18:58:01|74.415548ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:02:10|1.304888ms|200|GET|/|::1|0 B|509 B||
+2020-12-04 19:02:10|10.155286ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 19:02:10|3.042381ms|200|GET|/static/js/manifest.00f67ca6b1120300e62d.js|::1|file=static/js/manifest.00f67ca6b1120300e62d.js|0 B|10 B||
+2020-12-04 19:02:10|1.387972ms|200|GET|/static/js/app.500dc30ae780efdd1d27.js|::1|file=static/js/app.500dc30ae780efdd1d27.js|0 B|10 B||
+2020-12-04 19:02:10|78.750276ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 19:02:10|14.678082ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:02:10|1.090183ms|200|GET|/static/js/manifest.00f67ca6b1120300e62d.js.map|::1|file=static/js/manifest.00f67ca6b1120300e62d.js.map|0 B|10 B||
+2020-12-04 19:02:11|49.5µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 19:02:11|14.191µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 19:02:11|14.115µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 19:02:11|4.212636ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 19:02:11|7.462594ms|200|GET|/static/js/app.500dc30ae780efdd1d27.js.map|::1|file=static/js/app.500dc30ae780efdd1d27.js.map|0 B|28.1 KB||
+2020-12-04 19:02:11|617.224079ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:02:20|29.374858ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:02:20|5.825359ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:02:22|44.534827ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:02:23|100.447725ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:09:45|27.368858ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:09:45|8.669427ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:09:46|39.375498ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:09:46|57.077252ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:09:51|201.373µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 19:09:52|24.557586ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 19:09:52|11.221573ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:09:52|793.309µs|200|GET|/static/js/manifest.1853baad69519aeabe8f.js|::1|file=static/js/manifest.1853baad69519aeabe8f.js|0 B|10 B||
+2020-12-04 19:09:52|2.267423ms|200|GET|/static/js/app.008a7a445492ac3e11a3.js|::1|file=static/js/app.008a7a445492ac3e11a3.js|0 B|10 B||
+2020-12-04 19:09:52|78.123652ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 19:09:52|1.073725ms|200|GET|/static/js/manifest.1853baad69519aeabe8f.js.map|::1|file=static/js/manifest.1853baad69519aeabe8f.js.map|0 B|10 B||
+2020-12-04 19:09:52|14.519µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 19:09:52|14.958µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 19:09:52|13.95µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 19:09:52|2.386586ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 19:09:52|9.818814ms|200|GET|/static/js/app.008a7a445492ac3e11a3.js.map|::1|file=static/js/app.008a7a445492ac3e11a3.js.map|0 B|28.1 KB||
+2020-12-04 19:09:53|475.714095ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:09:59|30.50428ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:09:59|6.269509ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:10:01|3.339419ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:10:01|85.552241ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:12:00|112.652µs|404|POST|/test|::1|93 B|9 B|username=aaa&nickname=aaa&password=aaa&email=aaa%40163.com&userface=aaaa&roles=3%2C4%2C2%2C1&|
+2020-12-04 19:12:01|194.406µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 19:12:02|5.069337ms|200|GET|/static/js/manifest.1853baad69519aeabe8f.js.map|::1|file=static/js/manifest.1853baad69519aeabe8f.js.map|0 B|10 B||
+2020-12-04 19:12:02|30.234218ms|200|GET|/static/js/app.008a7a445492ac3e11a3.js.map|::1|file=static/js/app.008a7a445492ac3e11a3.js.map|0 B|28.1 KB||
+2020-12-04 19:12:02|49.103914ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:12:02|344.946138ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:12:14|26.888µs|404|POST|/test|::1|93 B|9 B|username=aaa&nickname=aaa&password=aaa&email=aaa%40163.com&userface=aaaa&roles=3%2C4%2C2%2C1&|
+2020-12-04 19:23:29|31.011799ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:23:29|8.533566ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:23:30|54.585561ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:23:30|62.525632ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:34:46|766.211µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 19:34:46|9.957184ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 19:34:46|816.142µs|200|GET|/static/js/manifest.6cb32a9ce71e693a4260.js|::1|file=static/js/manifest.6cb32a9ce71e693a4260.js|0 B|10 B||
+2020-12-04 19:34:46|1.577191ms|200|GET|/static/js/app.4e7eba59fecf0d63e46d.js|::1|file=static/js/app.4e7eba59fecf0d63e46d.js|0 B|10 B||
+2020-12-04 19:34:46|70.667129ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 19:34:48|21.770219ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:34:48|2.479649ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 19:34:48|8.549166ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:34:49|13.154772ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:34:49|65.164371ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:40:04|18.783808ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:40:04|7.634527ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:40:05|12.061022ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:40:05|91.276333ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:40:32|26.302914ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 19:40:32|907.773µs|404|GET|/static/js/manifest.6cb32a9ce71e693a4260.js.map|::1|0 B|9 B||
+2020-12-04 19:40:32|488.829µs|404|GET|/static/js/app.4e7eba59fecf0d63e46d.js.map|::1|0 B|9 B||
+2020-12-04 19:40:32|56.654457ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:40:32|326.178042ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:40:37|21.146µs|404|POST|/test|::1|88 B|9 B|username=test&nickname=test&password=123&email=test%40123.com&userface=&roles=2%2C3%2C4&|
+2020-12-04 19:40:43|181.793µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 19:40:43|547.641µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 19:40:43|4.983091ms|200|GET|/static/js/manifest.a530db7682461c305312.js|::1|file=static/js/manifest.a530db7682461c305312.js|0 B|10 B||
+2020-12-04 19:40:43|3.993125ms|200|GET|/static/js/app.d876e294688d1c70a99d.js|::1|file=static/js/app.d876e294688d1c70a99d.js|0 B|10 B||
+2020-12-04 19:40:43|84.451761ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 19:40:43|8.52613ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:40:43|618.809µs|200|GET|/static/js/manifest.a530db7682461c305312.js.map|::1|file=static/js/manifest.a530db7682461c305312.js.map|0 B|10 B||
+2020-12-04 19:40:44|15.067µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 19:40:44|14.241µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 19:40:44|12.932µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 19:40:44|4.41258ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 19:40:44|7.425462ms|200|GET|/static/js/app.d876e294688d1c70a99d.js.map|::1|file=static/js/app.d876e294688d1c70a99d.js.map|0 B|28.1 KB||
+2020-12-04 19:40:44|436.572464ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:40:49|14.388268ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:40:49|7.298095ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:40:51|3.610423ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:40:51|31.555741ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:41:12|240.066µs|200|POST|/admin/user|::1|84 B|7 B|username=test&nickname=test&password=123&email=test%40123.com&userface=&roles=2%2C3&|
+2020-12-04 19:44:17|493.174µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 19:44:17|228.572µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 19:44:17|231.248µs|304|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|0 B||
+2020-12-04 19:44:17|152.22µs|304|GET|/static/js/app.d876e294688d1c70a99d.js|::1|file=static/js/app.d876e294688d1c70a99d.js|0 B|0 B||
+2020-12-04 19:44:17|167.169µs|304|GET|/static/js/manifest.a530db7682461c305312.js|::1|file=static/js/manifest.a530db7682461c305312.js|0 B|0 B||
+2020-12-04 19:44:17|16.039158ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:44:17|23.922µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 19:44:17|157.632µs|304|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|0 B||
+2020-12-04 19:44:17|9.353µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 19:44:17|11.853235ms|200|GET|/static/js/manifest.a530db7682461c305312.js.map|::1|file=static/js/manifest.a530db7682461c305312.js.map|0 B|10 B||
+2020-12-04 19:44:17|21.357845ms|200|GET|/static/js/app.d876e294688d1c70a99d.js.map|::1|file=static/js/app.d876e294688d1c70a99d.js.map|0 B|28.1 KB||
+2020-12-04 19:44:17|13.378µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 19:44:18|466.664853ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:44:23|25.459147ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 19:44:23|4.616923ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 19:44:26|29.743457ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 19:44:26|27.383811ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 19:44:45|528.761µs|200|POST|/admin/user|::1|0 B|7 B||
+2020-12-04 19:45:37|687.663µs|200|POST|/admin/user|::1|0 B|7 B||
+2020-12-04 19:56:34|402.792µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 19:56:34|31.126733ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 19:56:34|1.819459ms|200|GET|/static/js/manifest.77639614aa16c3b66039.js|::1|file=static/js/manifest.77639614aa16c3b66039.js|0 B|10 B||
+2020-12-04 19:56:34|1.712205ms|200|GET|/static/js/app.df0cb5e3e5479f0d1f0b.js|::1|file=static/js/app.df0cb5e3e5479f0d1f0b.js|0 B|10 B||
+2020-12-04 19:56:34|655.53µs|200|GET|/static/js/manifest.77639614aa16c3b66039.js.map|::1|file=static/js/manifest.77639614aa16c3b66039.js.map|0 B|10 B||
+2020-12-04 19:56:34|11.89775ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:56:34|116.427982ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 19:56:34|50.598µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 19:56:34|14.102µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 19:56:34|50.237µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 19:56:34|2.164577ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 19:56:35|7.433808ms|200|GET|/static/js/app.df0cb5e3e5479f0d1f0b.js.map|::1|file=static/js/app.df0cb5e3e5479f0d1f0b.js.map|0 B|28.1 KB||
+2020-12-04 19:56:35|471.451503ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:56:44|58.351µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 19:56:44|222.922µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 19:56:44|155.452µs|304|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|0 B||
+2020-12-04 19:56:44|153.457µs|304|GET|/static/js/manifest.77639614aa16c3b66039.js|::1|file=static/js/manifest.77639614aa16c3b66039.js|0 B|0 B||
+2020-12-04 19:56:44|102.779µs|304|GET|/static/js/app.df0cb5e3e5479f0d1f0b.js|::1|file=static/js/app.df0cb5e3e5479f0d1f0b.js|0 B|0 B||
+2020-12-04 19:56:44|12.142655ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 19:56:44|5.567285ms|200|GET|/static/js/manifest.77639614aa16c3b66039.js.map|::1|file=static/js/manifest.77639614aa16c3b66039.js.map|0 B|10 B||
+2020-12-04 19:56:45|248.687079ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 19:56:45|14.794µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 19:56:45|11.362µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 19:56:45|12.897µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 19:56:45|137.368µs|304|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|0 B||
+2020-12-04 19:56:45|7.592266ms|200|GET|/static/js/app.df0cb5e3e5479f0d1f0b.js.map|::1|file=static/js/app.df0cb5e3e5479f0d1f0b.js.map|0 B|28.1 KB||
+2020-12-04 20:01:41|474.628µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:01:41|9.497993ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:01:41|13.970499ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:01:41|695.196µs|200|GET|/static/js/manifest.7a59e1b85b861b2f57b9.js|::1|file=static/js/manifest.7a59e1b85b861b2f57b9.js|0 B|10 B||
+2020-12-04 20:01:41|4.867938ms|200|GET|/static/js/app.899860844478b954fb50.js|::1|file=static/js/app.899860844478b954fb50.js|0 B|10 B||
+2020-12-04 20:01:41|89.093717ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:01:41|916.246µs|200|GET|/static/js/manifest.7a59e1b85b861b2f57b9.js.map|::1|file=static/js/manifest.7a59e1b85b861b2f57b9.js.map|0 B|10 B||
+2020-12-04 20:01:42|22.792µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 20:01:42|35.467µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:01:42|8.226µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 20:01:42|15.830955ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:01:42|38.637264ms|200|GET|/static/js/app.899860844478b954fb50.js.map|::1|file=static/js/app.899860844478b954fb50.js.map|0 B|28.1 KB||
+2020-12-04 20:01:42|559.598234ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:01:52|14.293794ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 20:02:27|51.630658ms|200|GET|/article/dataStatistics|::1|0 B|170 B||
+2020-12-04 20:02:29|6.223325ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 20:02:29|54.510439ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 20:02:46|56.61µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:02:46|239.717µs|304|GET|/static/js/manifest.7a59e1b85b861b2f57b9.js|::1|file=static/js/manifest.7a59e1b85b861b2f57b9.js|0 B|0 B||
+2020-12-04 20:02:46|281.663µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 20:02:46|121.943µs|304|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|0 B||
+2020-12-04 20:02:46|134.679µs|304|GET|/static/js/app.899860844478b954fb50.js|::1|file=static/js/app.899860844478b954fb50.js|0 B|0 B||
+2020-12-04 20:02:47|21.448µs|401|GET|/admin/user|::1|nickname=|0 B|0 B||
+2020-12-04 20:02:47|14.364µs|401|GET|/admin/roles|::1|0 B|0 B||
+2020-12-04 20:02:47|14.183µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:02:47|138.368µs|304|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|0 B||
+2020-12-04 20:02:47|3.906678ms|200|GET|/static/js/manifest.7a59e1b85b861b2f57b9.js.map|::1|file=static/js/manifest.7a59e1b85b861b2f57b9.js.map|0 B|10 B||
+2020-12-04 20:02:47|13.681475ms|200|GET|/static/js/app.899860844478b954fb50.js.map|::1|file=static/js/app.899860844478b954fb50.js.map|0 B|28.1 KB||
+2020-12-04 20:02:47|18.908797ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:02:47|383.217114ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:03:16|92.622163ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 20:03:16|148.038108ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|2.1 KB||
+2020-12-04 20:03:16|130.174961ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 20:03:16|165.769698ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 20:03:16|197.030041ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|1.1 KB||
+2020-12-04 20:03:16|154.407211ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-12-04 20:03:16|23.528632ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 20:08:30|1.273832ms|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:08:31|9.381136ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:08:31|12.34724ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:08:31|1.947655ms|200|GET|/static/js/manifest.cfb2005dc4601032fd06.js|::1|file=static/js/manifest.cfb2005dc4601032fd06.js|0 B|10 B||
+2020-12-04 20:08:31|1.580442ms|200|GET|/static/js/app.9383722d489da784b130.js|::1|file=static/js/app.9383722d489da784b130.js|0 B|10 B||
+2020-12-04 20:08:31|75.352829ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:08:31|1.024263ms|200|GET|/static/js/manifest.cfb2005dc4601032fd06.js.map|::1|file=static/js/manifest.cfb2005dc4601032fd06.js.map|0 B|10 B||
+2020-12-04 20:08:31|4.589034ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:08:31|9.586145ms|200|GET|/static/js/app.9383722d489da784b130.js.map|::1|file=static/js/app.9383722d489da784b130.js.map|0 B|28.1 KB||
+2020-12-04 20:08:31|26.51µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|0 B||
+2020-12-04 20:08:31|16.858µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|0 B||
+2020-12-04 20:08:31|15.308µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|0 B||
+2020-12-04 20:08:31|18.494µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|0 B||
+2020-12-04 20:08:31|13.694µs|401|GET|/currentUserEmail|::1|0 B|0 B||
+2020-12-04 20:08:31|14.903µs|401|GET|/isAdmin|::1|0 B|0 B||
+2020-12-04 20:08:31|15.601µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:08:32|384.01265ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:16:00|806.222µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:16:00|16.180515ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:16:00|1.070506ms|200|GET|/static/js/manifest.a019218cea9dfd065094.js|::1|file=static/js/manifest.a019218cea9dfd065094.js|0 B|10 B||
+2020-12-04 20:16:00|1.340783ms|200|GET|/static/js/app.aa30796f043b2fb4575c.js|::1|file=static/js/app.aa30796f043b2fb4575c.js|0 B|10 B||
+2020-12-04 20:16:01|114.981926ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:16:01|9.519838ms|200|GET|/static/js/manifest.a019218cea9dfd065094.js.map|::1|file=static/js/manifest.a019218cea9dfd065094.js.map|0 B|10 B||
+2020-12-04 20:16:01|36.988615ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:16:01|4.674628ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:16:01|8.375215ms|200|GET|/static/js/app.aa30796f043b2fb4575c.js.map|::1|file=static/js/app.aa30796f043b2fb4575c.js.map|0 B|28.1 KB||
+2020-12-04 20:16:01|30.631µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|0 B||
+2020-12-04 20:16:01|17.925µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|0 B||
+2020-12-04 20:16:01|27.843µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|0 B||
+2020-12-04 20:16:01|15.922µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|0 B||
+2020-12-04 20:16:01|14.578µs|401|GET|/currentUserEmail|::1|0 B|0 B||
+2020-12-04 20:16:01|12.851µs|401|GET|/isAdmin|::1|0 B|0 B||
+2020-12-04 20:16:01|13.864µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:16:02|342.561857ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:16:42|18.577µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|0 B||
+2020-12-04 20:20:35|645.569µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:20:35|8.71297ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:20:36|3.097497ms|200|GET|/static/js/manifest.97d12a940309d3bbbd0f.js|::1|file=static/js/manifest.97d12a940309d3bbbd0f.js|0 B|10 B||
+2020-12-04 20:20:36|1.692314ms|200|GET|/static/js/app.8c9c13ca61dfced2df6b.js|::1|file=static/js/app.8c9c13ca61dfced2df6b.js|0 B|10 B||
+2020-12-04 20:20:36|76.222712ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:20:36|873.439µs|200|GET|/static/js/manifest.97d12a940309d3bbbd0f.js.map|::1|file=static/js/manifest.97d12a940309d3bbbd0f.js.map|0 B|10 B||
+2020-12-04 20:20:36|11.175176ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:20:36|2.319358ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:20:36|16.45566ms|200|GET|/static/js/app.8c9c13ca61dfced2df6b.js.map|::1|file=static/js/app.8c9c13ca61dfced2df6b.js.map|0 B|28.1 KB||
+2020-12-04 20:20:36|23.891µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|0 B||
+2020-12-04 20:20:36|15.624µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|0 B||
+2020-12-04 20:20:36|18.577µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|0 B||
+2020-12-04 20:20:36|14.427µs|401|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|0 B||
+2020-12-04 20:20:36|12.386µs|401|GET|/currentUserEmail|::1|0 B|0 B||
+2020-12-04 20:20:36|27.605µs|401|GET|/isAdmin|::1|0 B|0 B||
+2020-12-04 20:20:36|14.68µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:20:37|354.447754ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:20:44|11.223414ms|200|GET|/admin/category/all|::1|0 B|624 B||
+2020-12-04 20:20:50|33.953µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:20:50|155.375µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 20:20:51|12.279778ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:20:51|215.971µs|304|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|0 B||
+2020-12-04 20:20:51|143.333µs|304|GET|/static/js/manifest.97d12a940309d3bbbd0f.js|::1|file=static/js/manifest.97d12a940309d3bbbd0f.js|0 B|0 B||
+2020-12-04 20:20:51|141.093µs|304|GET|/static/js/app.8c9c13ca61dfced2df6b.js|::1|file=static/js/app.8c9c13ca61dfced2df6b.js|0 B|0 B||
+2020-12-04 20:20:51|3.088369ms|200|GET|/static/js/manifest.97d12a940309d3bbbd0f.js.map|::1|file=static/js/manifest.97d12a940309d3bbbd0f.js.map|0 B|10 B||
+2020-12-04 20:20:51|7.341162ms|200|GET|/static/js/app.8c9c13ca61dfced2df6b.js.map|::1|file=static/js/app.8c9c13ca61dfced2df6b.js.map|0 B|28.1 KB||
+2020-12-04 20:20:51|296.513958ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:20:51|166.37µs|304|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|0 B||
+2020-12-04 20:20:51|13.283µs|401|GET|/admin/category/all|::1|0 B|0 B||
+2020-12-04 20:20:51|13.248µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:29:36|861.187µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:29:36|9.467855ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:29:36|2.756628ms|200|GET|/static/js/manifest.74f4837d1e142a9872a1.js|::1|file=static/js/manifest.74f4837d1e142a9872a1.js|0 B|10 B||
+2020-12-04 20:29:36|1.386947ms|200|GET|/static/js/app.caa030dcc7dc85a65c75.js|::1|file=static/js/app.caa030dcc7dc85a65c75.js|0 B|10 B||
+2020-12-04 20:29:36|73.788332ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:29:36|3.2378ms|200|GET|/static/js/manifest.74f4837d1e142a9872a1.js.map|::1|file=static/js/manifest.74f4837d1e142a9872a1.js.map|0 B|10 B||
+2020-12-04 20:29:36|21.468004ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:29:37|6.912167ms|200|GET|/static/js/app.caa030dcc7dc85a65c75.js.map|::1|file=static/js/app.caa030dcc7dc85a65c75.js.map|0 B|28.4 KB||
+2020-12-04 20:29:37|1.748115ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:29:37|37.796µs|401|GET|/admin/category/all|::1|0 B|0 B||
+2020-12-04 20:29:37|14.569µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:29:37|324.856581ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:34:19|484.067µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:34:19|10.679894ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:34:20|982.11µs|200|GET|/static/js/manifest.6bafdeeccce6ebee644c.js|::1|file=static/js/manifest.6bafdeeccce6ebee644c.js|0 B|10 B||
+2020-12-04 20:34:20|1.479776ms|200|GET|/static/js/app.b38227f8f094491cf493.js|::1|file=static/js/app.b38227f8f094491cf493.js|0 B|10 B||
+2020-12-04 20:34:20|65.281438ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:34:20|9.835092ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:34:20|1.380806ms|200|GET|/static/js/manifest.6bafdeeccce6ebee644c.js.map|::1|file=static/js/manifest.6bafdeeccce6ebee644c.js.map|0 B|10 B||
+2020-12-04 20:34:20|101.346948ms|200|GET|/static/js/app.b38227f8f094491cf493.js.map|::1|file=static/js/app.b38227f8f094491cf493.js.map|0 B|28.4 KB||
+2020-12-04 20:34:21|784.888187ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:34:25|9.044741ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 20:34:25|3.842546ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:34:25|32.096µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:34:31|14.473933ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 20:34:32|30.758µs|401|GET|/currentUserName|::1|0 B|0 B||
+2020-12-04 20:41:02|690.865µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:41:02|708.316µs|200|GET|/static/js/manifest.45c21f08f8ec8b89680f.js|::1|file=static/js/manifest.45c21f08f8ec8b89680f.js|0 B|10 B||
+2020-12-04 20:41:02|11.895435ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:41:02|4.071403ms|200|GET|/static/js/app.f4545b36dd9424926c5e.js|::1|file=static/js/app.f4545b36dd9424926c5e.js|0 B|10 B||
+2020-12-04 20:41:02|187.974499ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:41:02|1.16463ms|200|GET|/static/js/manifest.45c21f08f8ec8b89680f.js.map|::1|file=static/js/manifest.45c21f08f8ec8b89680f.js.map|0 B|10 B||
+2020-12-04 20:41:02|10.878619ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:41:03|19.563611ms|200|GET|/static/js/app.f4545b36dd9424926c5e.js.map|::1|file=static/js/app.f4545b36dd9424926c5e.js.map|0 B|28.4 KB||
+2020-12-04 20:41:03|265.800087ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:41:04|17.608559ms|200|POST|/login|::1|0 B|249 B||
+2020-12-04 20:41:04|4.260244ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:41:04|12.941487ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 20:41:07|25.499288ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 20:41:07|31.119285ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 20:41:13|32.046µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:41:13|11.873372ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:41:14|5.69584ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 20:41:14|49.477331ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 20:41:14|4.879922ms|200|GET|/static/js/manifest.45c21f08f8ec8b89680f.js.map|::1|file=static/js/manifest.45c21f08f8ec8b89680f.js.map|0 B|10 B||
+2020-12-04 20:41:14|8.145865ms|200|GET|/static/js/app.f4545b36dd9424926c5e.js.map|::1|file=static/js/app.f4545b36dd9424926c5e.js.map|0 B|28.4 KB||
+2020-12-04 20:41:14|131.978124ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 20:41:15|794.826489ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:41:25|86.830535ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=1|0 B|2.1 KB||
+2020-12-04 20:41:25|128.088247ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=-1|0 B|2.1 KB||
+2020-12-04 20:41:25|81.09ms|200|GET|/currentUserEmail|::1|0 B|18 B||
+2020-12-04 20:41:25|197.416593ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=0|0 B|1.1 KB||
+2020-12-04 20:41:25|205.097294ms|200|GET|/isAdmin|::1|0 B|5 B||
+2020-12-04 20:41:25|245.856313ms|200|GET|/article/all|::1|count=6 keywords= page=1 state=2|0 B|40 B||
+2020-12-04 20:41:25|21.257336ms|200|GET|/admin/article/all|::1|count=6 keywords= page=1|0 B|2.1 KB||
+2020-12-04 20:41:27|5.967689ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 20:41:27|26.106227ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 20:42:57|980.967µs|200|POST|/admin/user|::1|0 B|7 B||
+2020-12-04 20:55:31|505.789µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 20:55:31|30.334628ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 20:55:31|641.202µs|200|GET|/static/js/manifest.dc9848849478d08dcace.js|::1|file=static/js/manifest.dc9848849478d08dcace.js|0 B|10 B||
+2020-12-04 20:55:31|1.2226ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js|::1|file=static/js/app.4f6c3286eeb7141e70b0.js|0 B|10 B||
+2020-12-04 20:55:31|101.841809ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 20:55:31|10.729211ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 20:55:31|852.318µs|200|GET|/static/js/manifest.dc9848849478d08dcace.js.map|::1|file=static/js/manifest.dc9848849478d08dcace.js.map|0 B|10 B||
+2020-12-04 20:55:32|5.771144ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js.map|::1|file=static/js/app.4f6c3286eeb7141e70b0.js.map|0 B|28.4 KB||
+2020-12-04 20:55:32|2.157666ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 20:55:32|46.288011ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 20:55:32|61.919038ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 20:55:32|171.470066ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 20:55:32|613.123694ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 20:55:47|458.436µs|200|POST|/admin/user|::1|0 B|61 B||
+2020-12-04 20:55:47|27.52522ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 21:00:40|1.259602ms|200|POST|/admin/user|::1|0 B|61 B||
+2020-12-04 21:00:40|35.941525ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 21:00:44|279.595µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 21:00:44|2.100116ms|200|GET|/static/js/manifest.dc9848849478d08dcace.js.map|::1|file=static/js/manifest.dc9848849478d08dcace.js.map|0 B|10 B||
+2020-12-04 21:00:44|7.019369ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js.map|::1|file=static/js/app.4f6c3286eeb7141e70b0.js.map|0 B|28.4 KB||
+2020-12-04 21:00:44|15.057276ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 21:00:44|418.303836ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 21:00:48|361.871µs|200|POST|/admin/user|::1|0 B|61 B||
+2020-12-04 21:00:49|46.761953ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 21:11:25|19.536743ms|200|POST|/admin/user|::1|0 B|0 B||
+2020-12-04 21:11:29|15.266418ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 21:11:29|827.891µs|200|GET|/static/js/manifest.dc9848849478d08dcace.js.map|::1|file=static/js/manifest.dc9848849478d08dcace.js.map|0 B|10 B||
+2020-12-04 21:11:29|9.512699ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js.map|::1|file=static/js/app.4f6c3286eeb7141e70b0.js.map|0 B|28.4 KB||
+2020-12-04 21:11:30|335.153976ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 21:11:33|16.934498ms|200|POST|/admin/user|::1|0 B|0 B||
+2020-12-04 21:11:49|238.062µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 21:11:49|205.913µs|304|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|0 B||
+2020-12-04 21:11:49|10.923408ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 21:11:49|171.124µs|304|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|0 B||
+2020-12-04 21:11:49|189.078µs|304|GET|/static/js/manifest.dc9848849478d08dcace.js|::1|file=static/js/manifest.dc9848849478d08dcace.js|0 B|0 B||
+2020-12-04 21:11:49|136.208µs|304|GET|/static/js/app.4f6c3286eeb7141e70b0.js|::1|file=static/js/app.4f6c3286eeb7141e70b0.js|0 B|0 B||
+2020-12-04 21:11:49|632.475µs|200|GET|/static/js/manifest.dc9848849478d08dcace.js.map|::1|file=static/js/manifest.dc9848849478d08dcace.js.map|0 B|10 B||
+2020-12-04 21:11:50|262.876417ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 21:11:50|150.952µs|304|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|0 B||
+2020-12-04 21:11:50|19.060285ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 21:11:50|5.07625ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 21:11:50|28.450024ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 21:11:50|8.173696ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js.map|::1|file=static/js/app.4f6c3286eeb7141e70b0.js.map|0 B|28.4 KB||
+2020-12-04 21:12:01|32.072µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 21:12:01|8.908379ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 21:12:01|1.97188ms|200|GET|/static/js/manifest.dc9848849478d08dcace.js|::1|file=static/js/manifest.dc9848849478d08dcace.js|0 B|10 B||
+2020-12-04 21:12:01|3.507259ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js|::1|file=static/js/app.4f6c3286eeb7141e70b0.js|0 B|10 B||
+2020-12-04 21:12:02|100.603768ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 21:12:02|11.962992ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 21:12:02|265.568µs|200|GET|/static/js/manifest.dc9848849478d08dcace.js.map|::1|file=static/js/manifest.dc9848849478d08dcace.js.map|0 B|10 B||
+2020-12-04 21:12:02|7.288856ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 21:12:02|20.230866ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js.map|::1|file=static/js/app.4f6c3286eeb7141e70b0.js.map|0 B|28.4 KB||
+2020-12-04 21:12:02|32.495112ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 21:12:02|57.339966ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 21:12:02|48.261355ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 21:12:03|726.261339ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 21:12:14|18.726685ms|200|POST|/admin/user|::1|0 B|0 B||
+2020-12-04 21:14:00|7.964301ms|200|POST|/admin/user|::1|0 B|0 B||
+2020-12-04 21:15:29|14.201909ms|200|POST|/admin/user|::1|0 B|0 B||
+2020-12-04 21:16:23|32.1707ms|200|POST|/admin/user|::1|0 B|61 B||
+2020-12-04 21:16:23|36.657186ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 21:19:08|653.106µs|200|GET|/|::1|0 B|509 B||
+2020-12-04 21:19:09|15.723086ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css|0 B|54.2 KB||
+2020-12-04 21:19:09|5.168461ms|200|GET|/static/js/manifest.dc9848849478d08dcace.js|::1|file=static/js/manifest.dc9848849478d08dcace.js|0 B|10 B||
+2020-12-04 21:19:09|10.836702ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js|::1|file=static/js/app.4f6c3286eeb7141e70b0.js|0 B|10 B||
+2020-12-04 21:19:09|78.637933ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js|::1|file=static/js/vendor.f6be618a42967a05c060.js|0 B|523.1 KB||
+2020-12-04 21:19:09|5.599832ms|200|GET|/static/js/manifest.dc9848849478d08dcace.js.map|::1|file=static/js/manifest.dc9848849478d08dcace.js.map|0 B|10 B||
+2020-12-04 21:19:09|34.318344ms|200|GET|/static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|::1|file=static/css/app.bc863c01bd283b4b819e7aecef3aac7f.css.map|0 B|76.2 KB||
+2020-12-04 21:19:09|5.263541ms|200|GET|/static/fonts/fontawesome-webfont.af7ae50.woff2|::1|file=static/fonts/fontawesome-webfont.af7ae50.woff2|0 B|64.0 KB||
+2020-12-04 21:19:09|6.068831ms|200|GET|/static/js/app.4f6c3286eeb7141e70b0.js.map|::1|file=static/js/app.4f6c3286eeb7141e70b0.js.map|0 B|28.4 KB||
+2020-12-04 21:19:09|57.34853ms|200|GET|/admin/user|::1|nickname=|0 B|5.7 KB||
+2020-12-04 21:19:09|40.121178ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 21:19:09|31.133736ms|200|GET|/currentUserName|::1|0 B|18 B||
+2020-12-04 21:19:10|446.083045ms|200|GET|/static/js/vendor.f6be618a42967a05c060.js.map|::1|file=static/js/vendor.f6be618a42967a05c060.js.map|0 B|1.7 MB||
+2020-12-04 21:19:26|100.732653ms|200|POST|/admin/user|::1|0 B|61 B||
+2020-12-04 21:19:26|36.118926ms|200|GET|/admin/user|::1|nickname=|0 B|6.0 KB||
+2020-12-04 21:19:46|8.458518ms|200|GET|/admin/roles|::1|0 B|254 B||
+2020-12-04 21:19:52|116.241342ms|200|PUT|/admin/user/role|::1|0 B|61 B||
+2020-12-04 21:19:52|24.534204ms|200|GET|/admin/user/21|::1|id=21|0 B|464 B||

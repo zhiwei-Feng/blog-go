@@ -7,6 +7,7 @@ import (
 	"github.com/kataras/iris/v12/middleware/jwt"
 	"net/http"
 	"strings"
+	"time"
 )
 
 func CurrentUserName(ctx iris.Context) {
@@ -155,4 +156,59 @@ func SwitchUserEnableStatus(ctx iris.Context) {
 	}
 	ctx.JSON(resp)
 
+}
+
+type UserObject struct {
+	ID       uint      `json:"id"`
+	Username string    `json:"username"`
+	Password string    `json:"password"`
+	Nickname string    `json:"nickname"`
+	Enabled  bool      `json:"enabled"`
+	Roles    []string  `json:"roles"`
+	Email    string    `json:"email"`
+	Userface string    `json:"userface"`
+	RegTime  time.Time `json:"regTime"`
+}
+
+func AddUser(ctx iris.Context) {
+	var resp RespBean
+	var newUserObj UserObject
+	if err := ctx.ReadBody(&newUserObj); err != nil {
+		ctx.StopWithError(iris.StatusBadRequest, err)
+		return
+	}
+	newUserObj.Roles = strings.Split(newUserObj.Roles[0], ",")
+	var newU domain.User
+	newU.Username = newUserObj.Username
+	newU.Nickname = newUserObj.Nickname
+	newU.Password = GetMD5Hash(newUserObj.Password)
+	newU.Email = newUserObj.Email
+	newU.Userface = newUserObj.Userface
+	for _, idStr := range newUserObj.Roles {
+		var temp domain.Role
+		err := config.DB.First(&temp, idStr)
+		if err.Error != nil {
+			ctx.StopWithError(http.StatusBadRequest, err.Error)
+			return
+		}
+		newU.Roles = append(newU.Roles, temp)
+	}
+	newU.Enabled = false
+	newU.RegTime = time.Now()
+	res := config.DB.Create(&newU)
+	if res.Error != nil {
+		resp = RespBean{
+			Status: http.StatusInternalServerError,
+			Msg:    "添加失败",
+			Data:   nil,
+		}
+
+	} else {
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    "添加成功",
+			Data:   nil,
+		}
+	}
+	ctx.JSON(resp)
 }
