@@ -1,6 +1,6 @@
 # blog-go
 
-[![](https://socialify.git.ci/zhiwei-Feng/blog-go/image?description=1&descriptionEditable=%E4%BD%BF%E7%94%A8Go%2Biris%2Bgorm%E9%87%8D%E5%86%99lenve%2FVBlog%E7%9A%84%E5%90%8E%E7%AB%AF%EF%BC%8C%E5%B9%B6%E4%BF%AE%E6%AD%A3%E4%BA%86%E9%83%A8%E5%88%86%E5%89%8D%E7%AB%AF&font=Source%20Code%20Pro&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)](https://socialify.git.ci/zhiwei-Feng/blog-go?description=1&descriptionEditable=%E4%BD%BF%E7%94%A8Go%2Biris%2Bgorm%E9%87%8D%E5%86%99lenve%2FVBlog%E7%9A%84%E5%90%8E%E7%AB%AF%EF%BC%8C%E5%B9%B6%E4%BF%AE%E6%AD%A3%E4%BA%86%E9%83%A8%E5%88%86%E5%89%8D%E7%AB%AF&font=Source%20Code%20Pro&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
+使用Go+iris+gorm重写lenve/VBlog的后端，并修正了部分前端
 
 ![](https://travis-ci.com/zhiwei-Feng/blog-go.svg?branch=master)
 ![](https://img.shields.io/github/go-mod/go-version/zhiwei-Feng/blog-go)
