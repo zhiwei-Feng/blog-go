@@ -366,6 +366,45 @@ func UpdateArticleState(ctx iris.Context) {
 	ctx.JSON(resp)
 }
 
+func DeleteArticleByAdmin(ctx iris.Context){
+	aids, err1 := ctx.PostValues("aids")
+	_, err2 := ctx.PostValueInt("state")
+	if err1 != nil || len(aids) == 0 {
+		ctx.StopWithError(http.StatusBadRequest, err1)
+		return
+	}
+	if err2 != nil {
+		ctx.StopWithError(http.StatusBadRequest, err2)
+		return
+	}
+	aids = strings.Split(aids[0], ",")
+	var res *gorm.DB
+	var resp RespBean
+	var aidArray []int
+	for _, aid := range aids {
+		if id, err := strconv.Atoi(aid); err != nil {
+			ctx.StopWithError(http.StatusBadRequest, err1)
+			return
+		} else {
+			aidArray = append(aidArray, id)
+		}
+	}
+	ctx.Application().Logger().Debugf("aidArray len: %v", len(aidArray))
+	res = config.DB.Where("id IN ?", aidArray).Delete(domain.Article{})
+	if res.RowsAffected != int64(len(aids)) {
+		resp = RespBean{
+			Status: http.StatusInternalServerError,
+			Msg:    "删除失败",
+		}
+	} else {
+		resp = RespBean{
+			Status: http.StatusOK,
+			Msg:    "删除成功",
+		}
+	}
+	ctx.JSON(resp)
+}
+
 func RestoreArticle(ctx iris.Context) {
 	id, err := ctx.PostValueInt("articleId")
 	if err != nil {

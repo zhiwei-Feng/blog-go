@@ -72,6 +72,7 @@ func newApp() *iris.Application {
 		arti := admin.Party("/article")
 		{
 			arti.Get("/all", controller.GetArticleByStateForAdmin)
+			arti.Put("/dustbin", controller.DeleteArticleByAdmin)
 		}
 	}
 
